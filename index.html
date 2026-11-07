@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblia Visual Interactiva</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="componentes/caja-contexto/caja-contexto.css">
+  <script src="componentes/caja-contexto/caja-contexto.js" defer></script>
+  <script src="editorial.js" defer></script>
+  <script src="lector.js" defer></script>
+</head>
+<body>
+  <main class="presentacion">
+    <h1>Biblia Visual Interactiva</h1>
+    <p>Primer lector bíblico en desarrollo</p>
+    <section class="lector" aria-labelledby="titulo-capitulo">
+      <div class="navegacion" role="group" aria-label="Seleccionar lectura bíblica">
+        <div class="control">
+          <label for="libro">Libro</label>
+          <select id="libro" disabled></select>
+        </div>
+        <div class="control">
+          <label for="numero-capitulo">Capítulo</label>
+          <select id="numero-capitulo" disabled></select>
+        </div>
+      </div>
+      <h2 id="titulo-capitulo">Génesis 1</h2>
+      <p id="estado-editorial" role="status"></p>
+      <div id="capitulo" aria-live="polite"></div>
+    </section>
+  </main>
+</body>
+</html>
