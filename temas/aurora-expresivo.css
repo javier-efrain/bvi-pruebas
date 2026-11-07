@@ -1,0 +1,123 @@
+:root[data-tema="aurora-expresivo"] {
+  color-scheme: light;
+  --fondo: #fff5f1;
+  --fondo-decorado: radial-gradient(ellipse at 0% 0%, #ff805866, transparent 42%), radial-gradient(ellipse at 100% 15%, #e65aba40, transparent 48%), radial-gradient(ellipse at 70% 85%, #42d5c62b, transparent 48%);
+  --superficie: #ffffff;
+  --superficie-control: #fff7fb;
+  --superficie-editorial: #f5f0ff;
+  --borde: #a88caa;
+  --texto: #30233e;
+  --texto-secundario: #66516b;
+  --acento: #a21c64;
+  --acento-vivo: #ed4565;
+  --turquesa: #006963;
+  --aviso: #80501a;
+  --gradiente: linear-gradient(110deg, #ef5a3c, #d92d89 52%, #7645d6);
+  --sombra: 0 20px 70px #8d315b1a;
+  --fuente-interfaz: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --fuente-lectura: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+:root[data-tema="aurora-expresivo"] .cabecera {
+  border-color: #a21c6440;
+}
+:root[data-tema="aurora-expresivo"] .marca { letter-spacing: -.035em; }
+:root[data-tema="aurora-expresivo"] .marca-icono {
+  background: var(--gradiente);
+  color: #fff;
+  border: 0;
+  border-radius: 16px 6px 16px 6px;
+  box-shadow: 0 6px 18px #b22e6230;
+}
+:root[data-tema="aurora-expresivo"] .introduccion h1 {
+  font-weight: 800;
+  letter-spacing: -.055em;
+}
+:root[data-tema="aurora-expresivo"] .introduccion h1 span {
+  color: #9b246a;
+  background: linear-gradient(105deg, #ac273b, #a21c64 50%, #6433aa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+:root[data-tema="aurora-expresivo"] .introduccion .eyebrow {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid #a88caa;
+  border-radius: 30px;
+  background: #fffafc;
+  color: var(--acento);
+  letter-spacing: .1em;
+}
+:root[data-tema="aurora-expresivo"] .lector,
+:root[data-tema="aurora-expresivo"] .configuracion {
+  border: 1px solid transparent;
+  border-radius: 32px 12px 32px 12px;
+  background: linear-gradient(#fff, #fff) padding-box, var(--gradiente) border-box;
+  box-shadow: var(--sombra);
+}
+:root[data-tema="aurora-expresivo"] select {
+  border-radius: 16px;
+  border-color: #a88caa;
+  border-bottom: 3px solid var(--acento);
+  font-weight: 600;
+  box-shadow: 0 4px 0 #a21c6408;
+}
+:root[data-tema="aurora-expresivo"] .navegacion {
+  border-bottom: 1px dashed var(--borde);
+}
+:root[data-tema="aurora-expresivo"] .encabezado-capitulo h2 {
+  color: #623197;
+  font-weight: 750;
+}
+:root[data-tema="aurora-expresivo"] .version {
+  background: #e5f7f2;
+  border-color: #75aaa2;
+  border-radius: 20px;
+}
+:root[data-tema="aurora-expresivo"] .linea-acento { width: 84px; height: 5px; }
+:root[data-tema="aurora-expresivo"] .versiculo-numero {
+  padding: 2px 4px;
+  min-width: 2em;
+  text-align: center;
+  border-radius: 6px;
+  background: #fbeaf3;
+}
+:root[data-tema="aurora-expresivo"] .caja-contexto {
+  border-color: #a99bc4;
+  border-left: 4px solid var(--turquesa);
+  border-radius: 18px 6px 18px 6px;
+  background: linear-gradient(135deg, #eaf8f4, #f5f0ff);
+}
+:root[data-tema="aurora-expresivo"] .tarjeta-editorial {
+  border-color: #b98e8c;
+  border-left: 4px solid #b63e32;
+  border-radius: 18px 6px 18px 6px;
+  background: #fff2eb;
+}
+:root[data-tema="aurora-expresivo"] .navegacion-principal {
+  border-top: 2px solid #b46392;
+  background: #fffbfe;
+  box-shadow: 0 -6px 24px #763b7a10;
+}
+:root[data-tema="aurora-expresivo"] .navegacion-principal button { border-radius: 22px; }
+:root[data-tema="aurora-expresivo"] .navegacion-principal button[aria-current="page"] {
+  color: #fff;
+  border-color: transparent;
+  background: linear-gradient(115deg, #b32b40, #972452 55%, #6733a6);
+  box-shadow: 0 4px 12px #a21c6420;
+}
+@media (forced-colors: active) {
+  :root[data-tema="aurora-expresivo"] .introduccion h1 span {
+    background: none;
+    -webkit-text-fill-color: CanvasText;
+    color: CanvasText;
+  }
+  :root[data-tema="aurora-expresivo"] .lector,
+  :root[data-tema="aurora-expresivo"] .configuracion { border-color: CanvasText; }
+  :root[data-tema="aurora-expresivo"] .marca-icono,
+  :root[data-tema="aurora-expresivo"] .navegacion-principal button[aria-current="page"] {
+    color: ButtonText;
+    border: 1px solid ButtonText;
+  }
+}

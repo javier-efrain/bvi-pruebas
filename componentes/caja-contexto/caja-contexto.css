@@ -1,10 +1,11 @@
 .caja-contexto {
   margin: 20px 0;
   padding: clamp(16px, 4vw, 24px);
-  border: 1px solid #b8cec3;
-  border-left: 4px solid #296e58;
+  border: 1px solid var(--borde);
+  border-left: 3px solid var(--turquesa);
   border-radius: 8px;
-  background-color: #eef5f0;
+  background-color: var(--superficie-editorial);
+  color: var(--texto);
   overflow-wrap: anywhere;
 }
 
@@ -17,5 +18,7 @@
   margin-top: 12px;
   font-size: 0.95rem;
   font-weight: 600;
-  color: #243b35;
+  color: var(--turquesa);
 }
+
+.caja-contexto p { margin: 0; }

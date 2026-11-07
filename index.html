@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-tema="neon-cosmos">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Biblia Visual Interactiva</title>
+  <meta name="theme-color" content="#090e24">
+  <link rel="stylesheet" href="temas/neon-cosmos.css">
+  <link rel="stylesheet" href="temas/aurora-expresivo.css">
+  <script src="temas/temas.js" defer></script>
   <link rel="stylesheet" href="estilos.css">
   <link rel="stylesheet" href="componentes/caja-contexto/caja-contexto.css">
   <script src="componentes/caja-contexto/caja-contexto.js" defer></script>
   <script src="editorial.js" defer></script>
   <script src="lector.js" defer></script>
+  <script src="navegacion.js" defer></script>
 </head>
 <body>
   <main class="presentacion">
-    <h1>Biblia Visual Interactiva</h1>
-    <p>Primer lector bíblico en desarrollo</p>
+    <header class="cabecera">
+      <div class="marca"><span class="marca-icono" aria-hidden="true">✦</span><span>BVI<span class="marca-subtitulo">Biblia Visual Interactiva</span></span></div>
+
+    </header>
+    <section id="pantalla-biblia" aria-label="Biblia">
+    <div class="introduccion">
+      <p class="eyebrow"><span aria-hidden="true">✦</span> UN ESPACIO PARA LA PALABRA</p>
+      <h1 tabindex="-1">Una lectura.<br><span>Infinitas conexiones.</span></h1>
+      <p>Explorá la Biblia, capítulo a capítulo.</p>
+    </div>
     <section class="lector" aria-labelledby="titulo-capitulo">
       <div class="navegacion" role="group" aria-label="Seleccionar lectura bíblica">
         <div class="control">
@@ -25,10 +38,43 @@
           <select id="numero-capitulo" disabled></select>
         </div>
       </div>
-      <h2 id="titulo-capitulo">Génesis 1</h2>
+      <div class="encabezado-capitulo">
+        <p class="eyebrow">LECTURA BÍBLICA <span class="version">RV1909</span></p>
+        <h2 id="titulo-capitulo" tabindex="-1">Mateo 1</h2>
+        <span class="linea-acento" aria-hidden="true"></span>
+      </div>
       <p id="estado-editorial" role="status"></p>
       <div id="capitulo" aria-live="polite"></div>
     </section>
+    </section>
+    <section id="pantalla-yo" aria-labelledby="titulo-yo" hidden>
+      <div class="introduccion">
+        <p class="eyebrow">TU ESPACIO</p>
+        <h1 id="titulo-yo" tabindex="-1">Yo</h1>
+      </div>
+      <div class="configuracion">
+        <h2>Apariencia</h2>
+      <div class="apariencia">
+        <label for="tema">Tema visual</label>
+        <select id="tema" aria-describedby="nota-temas">
+          <optgroup label="Modernos"><option value="neon-cosmos">Neon Cosmos</option></optgroup>
+          <optgroup label="Clásicos" disabled></optgroup>
+        </select>
+        <span id="nota-temas">Clásicos: próximamente</span>
+      </div>
+      </div>
+    </section>
+    <footer class="pie">BVI <span aria-hidden="true">·</span> Biblia Visual Interactiva <span class="pie-edicion">Reina Valera 1909</span></footer>
   </main>
+  <nav class="navegacion-principal" aria-label="Navegación principal">
+    <button type="button" data-pantalla="biblia" aria-controls="pantalla-biblia" aria-current="page">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5C8 2 3 4 3 4v15s5-2 9 1c4-3 9-1 9-1V4s-5-2-9 1Zm0 0v15"/></svg>
+      <span>Biblia</span>
+    </button>
+    <button type="button" data-pantalla="yo" aria-controls="pantalla-yo">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="7" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg>
+      <span>Yo</span>
+    </button>
+  </nav>
 </body>
 </html>

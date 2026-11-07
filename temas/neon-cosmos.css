@@ -1,0 +1,20 @@
+:root,
+:root[data-tema="neon-cosmos"] {
+  color-scheme: dark;
+  --fondo: #090e24;
+  --fondo-decorado: radial-gradient(ellipse at 85% 0%, #33205970, transparent 48%), radial-gradient(ellipse at 0% 40%, #11374440, transparent 50%);
+  --superficie: #111831;
+  --superficie-control: #171f3b;
+  --superficie-editorial: #19213e;
+  --borde: #35415f;
+  --texto: #e9edf8;
+  --texto-secundario: #aebbd3;
+  --acento: #b79aff;
+  --acento-vivo: #8456ff;
+  --turquesa: #68e3d6;
+  --aviso: #f2cd88;
+  --gradiente: linear-gradient(120deg, #b79aff, #68e3d6);
+  --sombra: 0 24px 80px #03061750;
+  --fuente-interfaz: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --fuente-lectura: "Segoe UI", system-ui, -apple-system, sans-serif;
+}

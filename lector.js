@@ -41,6 +41,16 @@ function dibujarCapitulo(capitulo) {
 const libros = new Map();
 const selectorLibro = document.getElementById("libro");
 const selectorCapitulo = document.getElementById("numero-capitulo");
+const claveLectura = "bvi.ultimaLectura";
+
+function recuperarLectura() {
+  try {
+    const lectura = JSON.parse(localStorage.getItem(claveLectura));
+    if (lectura && Number.isInteger(lectura.libro) && Number.isInteger(lectura.capitulo)
+      && libros.get(lectura.libro)?.capitulos.has(lectura.capitulo)) return lectura;
+  } catch { /* Datos inválidos o almacenamiento no disponible: Mateo 1. */ }
+  return { libro: 40, capitulo: 1 };
+}
 
 function crearOpcion(valor, etiqueta) {
   const opcion = document.createElement("option");
@@ -63,6 +73,9 @@ function cargarCapitulo(libro, numeroCapitulo) {
   });
   document.getElementById("titulo-capitulo").textContent =
     `${datosLibro.nombre} ${numeroCapitulo}`;
+  try {
+    localStorage.setItem(claveLectura, JSON.stringify({ libro, capitulo: numeroCapitulo }));
+  } catch { /* Se conserva la lectura actual en memoria si no se puede guardar. */ }
 }
 
 function actualizarCapitulos(libro, numeroInicial) {
@@ -123,8 +136,9 @@ async function iniciarLector(ruta) {
     }
     selectorLibro.replaceChildren(fragmento);
     await editorial.cargar();
-    selectorLibro.value = "1";
-    actualizarCapitulos(1, 1);
+    const lecturaInicial = recuperarLectura();
+    selectorLibro.value = String(lecturaInicial.libro);
+    actualizarCapitulos(lecturaInicial.libro, lecturaInicial.capitulo);
     selectorLibro.disabled = false;
     selectorCapitulo.disabled = false;
   } catch (error) {

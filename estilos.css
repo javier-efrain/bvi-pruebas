@@ -1,132 +1,65 @@
-* {
-  box-sizing: border-box;
+﻿* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { min-width: 280px; }
+body { margin: 0; min-height: 100svh; background: var(--fondo-decorado), var(--fondo); color: var(--texto); font-family: var(--fuente-interfaz); line-height: 1.6; }
+::selection { background: var(--acento); color: var(--fondo); }
+.presentacion { width: min(100% - 64px, 1040px); margin: 0 auto; padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)); }
+.cabecera { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 28px 0; border-bottom: 1px solid var(--borde); }
+.marca { display: flex; align-items: center; gap: 12px; font-size: 1.35rem; font-weight: 750; letter-spacing: .05em; }
+.marca-icono { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid var(--acento); border-radius: 14px; color: var(--turquesa); background: var(--superficie-control); font-size: 1.6rem; }
+.marca-subtitulo { display: block; font-size: .7rem; letter-spacing: 0; font-weight: 400; color: var(--texto-secundario); }
+.apariencia { display: grid; grid-template-columns: auto minmax(0, 155px); align-items: center; column-gap: 12px; }
+.apariencia label { font-size: .8rem; color: var(--texto-secundario); }
+#nota-temas { grid-column: 2; font-size: .7rem; color: var(--texto-secundario); margin-top: 4px; }
+.introduccion { padding: 60px 0 40px; }
+.eyebrow { margin: 0; color: var(--turquesa); font-size: .7rem; font-weight: 700; letter-spacing: .16em; }
+h1 { margin: 16px 0; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.13; letter-spacing: -.045em; font-weight: 650; }
+h1 span { color: var(--acento); }
+.introduccion > p:last-child { margin: 0; color: var(--texto-secundario); font-size: .95rem; }
+.lector { max-width: 800px; margin: 0 auto; padding: clamp(20px, 5vw, 48px); border: 1px solid var(--borde); border-radius: 24px; background: var(--superficie); box-shadow: var(--sombra); }
+.navegacion { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 16px; padding-bottom: 28px; border-bottom: 1px solid var(--borde); }
+.control { min-width: 0; }
+.control label { display: block; margin-bottom: 8px; color: var(--texto-secundario); font-size: .75rem; font-weight: 600; }
+select { width: 100%; min-width: 0; min-height: 48px; padding: 10px 12px; border: 1px solid var(--borde); border-radius: 10px; background: var(--superficie-control); color: var(--texto); font: inherit; font-size: 1rem; cursor: pointer; }
+.apariencia select { font-size: .8rem; }
+select:disabled { opacity: .65; cursor: wait; }
+select:focus-visible { outline: 3px solid var(--turquesa); outline-offset: 4px; }
+[tabindex="-1"]:focus-visible { outline: 2px solid var(--turquesa); outline-offset: 5px; border-radius: 4px; }
+.configuracion { max-width: 800px; margin: 0 auto; padding: clamp(20px, 5vw, 48px); border: 1px solid var(--borde); border-radius: 24px; background: var(--superficie); }
+.configuracion h2 { margin: 0 0 24px; font-size: 1.25rem; }
+.navegacion-principal { position: fixed; z-index: 10; bottom: 0; left: 0; right: 0; display: flex; justify-content: center; gap: 8px; padding: 8px 16px calc(8px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--borde); background: var(--superficie); }
+.navegacion-principal button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; min-height: 56px; width: min(40%, 180px); border: 1px solid transparent; border-radius: 12px; background: transparent; color: var(--texto-secundario); font: inherit; font-size: .75rem; cursor: pointer; }
+.navegacion-principal button[aria-current="page"] { color: var(--turquesa); background: var(--superficie-control); border-color: var(--borde); font-weight: 700; }
+.navegacion-principal button:focus-visible { outline: 3px solid var(--turquesa); outline-offset: 2px; }
+.navegacion-principal svg { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.encabezado-capitulo { padding: 32px 0 28px; }
+.encabezado-capitulo .eyebrow { display: flex; align-items: center; gap: 12px; color: var(--texto-secundario); }
+.version { border: 1px solid var(--borde); border-radius: 6px; padding: 2px 7px; font-size: .65rem; color: var(--turquesa); letter-spacing: .05em; }
+.lector h2 { margin: 12px 0 16px; font-size: clamp(1.9rem, 5vw, 2.6rem); letter-spacing: -.035em; line-height: 1.2; font-weight: 600; }
+.linea-acento { display: block; width: 48px; height: 3px; border-radius: 4px; background: var(--gradiente); }
+.versiculo { display: flex; align-items: baseline; gap: 16px; margin: 0 0 20px; font-family: var(--fuente-lectura); font-size: clamp(1.0625rem, 2vw, 1.18rem); line-height: 1.85; }
+.versiculo-numero { flex-shrink: 0; min-width: 1.6em; color: var(--acento); font-family: var(--fuente-interfaz); font-size: .72rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.versiculo-texto { min-width: 0; overflow-wrap: anywhere; }
+.tarjeta-editorial { margin: 24px 0; padding: 20px; border: 1px solid var(--borde); border-left: 3px solid var(--acento); border-radius: 12px; background: var(--superficie-editorial); overflow-wrap: anywhere; }
+.tarjeta-editorial h3 { margin: 0 0 12px; font-size: 1.15rem; color: var(--texto); }
+.tarjeta-editorial p { margin: 0; color: var(--texto-secundario); }
+.tarjeta-editorial .aviso-editorial { margin-top: 12px; font-size: .85rem; color: var(--aviso); }
+#estado-editorial:not(:empty) { margin: 0 0 20px; color: var(--aviso); }
+.pie { padding: 32px 0; margin: 0 auto; max-width: 800px; font-size: .75rem; color: var(--texto-secundario); }
+.pie span { margin: 0 8px; }
+.pie .pie-edicion { float: right; margin: 0; }
+@media (max-width: 600px) {
+  .presentacion { width: calc(100% - 32px); }
+  .cabecera { align-items: flex-start; flex-wrap: wrap; gap: 20px; padding: 20px 0; }
+  .apariencia { width: 100%; grid-template-columns: 1fr minmax(0, 165px); }
+  .introduccion { padding: 32px 0 28px; }
+  .lector { padding: 20px 16px; border-radius: 18px; }
+  .navegacion { gap: 12px; padding-bottom: 24px; }
+  .encabezado-capitulo { padding-top: 24px; }
+  .versiculo { gap: 10px; }
+  .pie .pie-edicion { float: none; display: block; margin-top: 6px; }
 }
-
-body {
-  margin: 0;
-  min-height: 100vh;
-  min-height: 100svh;
-  display: grid;
-  place-items: center;
-  padding: 24px;
-  background-color: #f5f3ed;
-  color: #243b35;
-  font-family: system-ui, sans-serif;
-  line-height: 1.6;
-}
-
-.presentacion {
-  width: 100%;
-  max-width: 680px;
-  padding: clamp(24px, 6vw, 56px);
-  border: 1px solid #deded3;
-  border-radius: 16px;
-  background-color: #ffffff;
-  text-align: center;
-}
-
-h1 {
-  margin: 0 0 16px;
-  font-size: clamp(1.75rem, 5vw, 3rem);
-  line-height: 1.2;
-  overflow-wrap: break-word;
-}
-
-p {
-  margin: 0;
-  color: #52655e;
-  font-size: clamp(1rem, 3vw, 1.2rem);
-}
-
-.lector {
-  margin-top: 32px;
-  text-align: left;
-}
-
-.lector h2 {
-  margin: 0 0 12px;
-  font-size: 1.4rem;
-}
-
-.navegacion {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-bottom: 24px;
-}
-
-.control {
-  flex: 1 1 180px;
-  min-width: 0;
-}
-
-.control label {
-  display: block;
-  margin-bottom: 6px;
-  font-weight: 600;
-}
-
-.control select {
-  width: 100%;
-  min-height: 44px;
-  padding: 8px;
-  border: 1px solid #52655e;
-  border-radius: 6px;
-  background-color: #fff;
-  color: #243b35;
-  font: inherit;
-}
-
-.control select:focus-visible {
-  outline: 3px solid #296e58;
-  outline-offset: 3px;
-}
-
-#capitulo {
-  margin-top: 24px;
-}
-
-.versiculo {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-  margin: 0 0 16px;
-}
-
-.versiculo-numero {
-  flex-shrink: 0;
-  min-width: 1.5em;
-  color: #243b35;
-  font-weight: 700;
-}
-
-.versiculo-texto {
-  min-width: 0;
-  overflow-wrap: anywhere;
-}
-
-.tarjeta-editorial {
-  margin: 20px 0;
-  padding: 16px;
-  border: 1px solid #c4ab72;
-  border-left: 4px solid #9d7529;
-  border-radius: 8px;
-  background-color: #fff8e8;
-  overflow-wrap: anywhere;
-}
-
-.tarjeta-editorial h3 {
-  margin: 0 0 12px;
-  font-size: 1.15rem;
-}
-
-.tarjeta-editorial .aviso-editorial {
-  margin-top: 12px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #705321;
-}
-
-#estado-editorial:not(:empty) {
-  margin: 12px 0;
+@media (forced-colors: active) {
+  .linea-acento { background: CanvasText; }
+  .lector, .caja-contexto, .tarjeta-editorial { box-shadow: none; }
 }
