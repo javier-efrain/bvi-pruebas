@@ -1,0 +1,45 @@
+{
+  "schema": "bvi.editorial.demo.experimental.v0.1",
+  "scope_note": "Ficha léxica de prueba privada. Verificación textual inicial, sin aprobación editorial definitiva.",
+  "publication_allowed": false,
+  "resources": [
+    {
+      "resource_id": "BVI-PALABRA-GAL-5-13-ELEUTHERIA",
+      "type": "palabra_original",
+      "status": "borrador",
+      "publication_allowed": false,
+      "termino": "ἐλευθερία",
+      "transliteracion": "eleuthería",
+      "traduccion_breve": "libertad",
+      "idioma": { "nombre": "Griego", "codigo": "grc", "direccion": "ltr" },
+      "etiqueta_revision": "Borrador · Pendiente de revisión",
+      "aviso_revision": "Experimental · Pendiente de revisión bíblica, lingüística y editorial · No publicable.",
+      "significado_lexico": "El sustantivo se emplea para expresar libertad o la condición de ser libre. Esta definición no determina por sí sola de qué se es libre ni cómo debe ejercerse esa libertad; esas precisiones dependen del contexto.",
+      "nota_forma": "ἐλευθερία es la forma de diccionario, no la forma flexionada que se lee literalmente en este versículo. En Gálatas 5:13 aparece dos veces, con estas formas:",
+      "formas_en_versiculo": [
+        { "texto": "ἐλευθερίᾳ", "gramatica": "sustantivo femenino, dativo singular" },
+        { "texto": "ἐλευθερίαν", "gramatica": "sustantivo femenino, acusativo singular" }
+      ],
+      "interpretacion_contextual": "En Gálatas 5:13, Pablo recuerda el llamado a la libertad y advierte que no debe usarse como ocasión para la carne. La exhortación al servicio mutuo por amor pertenece al argumento del versículo; no es un significado oculto incorporado a la palabra ἐλευθερία.",
+      "aporte_interpretacion": "Reconocer las dos formas del mismo sustantivo ayuda a seguir la repetición de la idea de libertad. Su relación con el servicio por amor se interpreta leyendo la oración y el pasaje, no deduciendo una enseñanza teológica solo del origen o de las partes de la palabra.",
+      "referencias": ["Gálatas 5:13", "Gálatas 5:14"],
+      "sources": [
+        { "source_id": "LSJ-ELEUTHERIA", "title": "Liddell–Scott–Jones, A Greek-English Lexicon · Scaife ATLAS / Perseus", "location": "Entrada ἐλευθερία; definición léxica general", "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n33603/", "consulted_at": "2026-11-07" },
+        { "source_id": "GAL5-13-MORFOLOGIA", "title": "Bible Hub · Galatians 5:13 Greek Text Analysis", "location": "ἐλευθερίᾳ: N-DFS; ἐλευθερίαν: N-AFS; cotejo también con el texto griego de Scrivener 1894 mostrado en esa página", "url": "https://biblehub.com/text/galatians/5-13.htm", "consulted_at": "2026-11-07" },
+        { "source_id": "RV1909-LOCAL", "title": "RV1909 · archivo local de BVI", "location": "contenido/rv_1909.json · libro 48, capítulo 5, versículos 13–14; cotejo del término español libertad", "consulted_at": "2026-11-07" }
+      ],
+      "editorial_review": { "textual_check": "cotejo inicial realizado; pendiente de revisión especializada", "biblical_review": "pendiente", "linguistic_review": "pendiente", "editorial_review": "pendiente", "reviewers": null, "rights_status": "pendiente" }
+    }
+  ],
+  "placements": [
+    {
+      "placement_id": "BVI-PALABRA-ELEUTHERIA-GAL-5-13-DESPUES",
+      "resource_id": "BVI-PALABRA-GAL-5-13-ELEUTHERIA",
+      "anchor": { "book_id": "GAL", "chapter": 5, "verse_number": 13 },
+      "position": "after_verse",
+      "order": 20,
+      "status": "borrador",
+      "publication_allowed": false
+    }
+  ]
+}

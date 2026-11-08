@@ -1,0 +1,8 @@
+.separador-banner { margin: 28px 0 20px; padding: 20px; border: 1px solid var(--borde); border-inline-start: 4px solid var(--acento); border-radius: 12px; background: var(--superficie-editorial); color: var(--texto); box-shadow: var(--sombra); overflow-wrap: anywhere; }
+.separador-banner h3 { margin: 10px 0; color: var(--acento); font-size: 1.3rem; line-height: 1.45; }
+.separador-banner-aviso, .separador-banner-referencia { margin: 0; color: var(--texto-secundario); font-size: .8rem; line-height: 1.6; }
+.separador-banner-descripcion { margin: 12px 0 0; line-height: 1.75; }
+.prueba-divisiones { margin: 16px 0; padding: 12px; border: 1px dashed var(--borde); border-radius: 8px; color: var(--texto-secundario); }
+.prueba-divisiones label, .prueba-divisiones small { display: block; line-height: 1.6; }
+.prueba-divisiones select { width: 100%; min-height: 44px; margin-block: 8px; padding: 8px; border: 1px solid var(--borde); border-radius: 8px; background: var(--superficie-control); color: var(--texto); font: inherit; }
+.prueba-divisiones select:focus-visible { outline: 3px solid var(--turquesa); outline-offset: 3px; }

@@ -1,0 +1,21 @@
+{
+  "schema": "bvi.editorial.demo.experimental.v0.1",
+  "publication_allowed": false,
+  "resources": [
+    {
+      "resource_id": "BVI-NOTA-GAL-5-1-YUGO",
+      "type": "nota_versiculo",
+      "status": "borrador",
+      "publication_allowed": false,
+      "referencia": { "book": 48, "chapter": 5, "verse": 1, "visible": "Gálatas 5:1" },
+      "titulo": "Yugo de servidumbre",
+      "texto": "La expresión pertenece al texto bíblico. Como interpretación editorial provisional, puede leerse a la luz de 5:2–4, donde Pablo aborda la circuncisión, la obligación de cumplir toda la ley y la pretensión de justificarse por ella. No se usa aquí para descalificar al pueblo judío ni para identificar cualquier obligación con esclavitud; 5:6 destaca la fe que obra por el amor.",
+      "aviso_revision": "Interpretación editorial experimental · Borrador pendiente de revisión exegética y editorial · No publicable.",
+      "procedencia": "Borrador de BVI a partir del cotejo de la RV1909 local, Gálatas 5:1–12; pendiente de cotejo especializado y aprobación.",
+      "editorial_review": { "exegetical_review": "pendiente", "editorial_review": "pendiente", "reviewers": null }
+    }
+  ],
+  "placements": [
+    { "placement_id": "BVI-NOTA-GAL-5-1-YUGO-INDICADOR", "resource_id": "BVI-NOTA-GAL-5-1-YUGO", "anchor": { "book_id": "GAL", "chapter": 5, "verse_number": 1 }, "position": "verse_note", "order": 10, "status": "borrador", "publication_allowed": false }
+  ]
+}

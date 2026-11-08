@@ -1,0 +1,12 @@
+.nota-versiculo-indicador { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; margin-inline-start: 6px; padding: 4px; vertical-align: middle; border: 1px solid var(--borde); border-radius: 50%; background: var(--superficie-control); color: var(--acento); font: inherit; font-size: 1rem; cursor: pointer; }
+.nota-versiculo-panel { box-sizing: border-box; width: min(480px, calc(100% - 24px)); max-height: calc(100dvh - 48px); padding: 18px; border: 1px solid var(--borde); border-radius: 14px; background: var(--superficie-editorial); color: var(--texto); overflow: auto; overflow-wrap: anywhere; box-shadow: var(--sombra); }
+.nota-versiculo-panel::backdrop { background: rgb(0 0 0 / .55); }
+.nota-versiculo-panel h2 { margin: 0 0 10px; font-size: 1.1rem; }
+.nota-versiculo-panel h3 { margin: 0 0 10px; font-size: 1rem; }
+.nota-versiculo-cerrar { min-height: 44px; padding: 8px 14px; margin-bottom: 14px; border: 1px solid var(--borde); border-radius: 8px; background: var(--superficie-control); color: var(--texto); font: inherit; cursor: pointer; }
+.nota-versiculo-contenido { max-height: 50dvh; overflow: auto; overscroll-behavior: contain; }
+.nota-versiculo-contenido article + article { border-top: 1px solid var(--borde); margin-top: 16px; padding-top: 16px; }
+.nota-versiculo-texto { margin: 10px 0; font-size: .95rem; line-height: 1.8; white-space: pre-wrap; }
+.nota-versiculo-aviso, .nota-versiculo-procedencia { font-size: .75rem; line-height: 1.65; color: var(--texto-secundario); }
+.nota-versiculo-aviso { color: var(--aviso); }
+.nota-versiculo-indicador:focus-visible, .nota-versiculo-panel :is(button, [tabindex]):focus-visible { outline: 3px solid var(--turquesa); outline-offset: 2px; }

@@ -11,7 +11,34 @@
   <link rel="stylesheet" href="estilos.css">
   <link rel="stylesheet" href="componentes/caja-contexto/caja-contexto.css">
   <script src="componentes/caja-contexto/caja-contexto.js" defer></script>
+  <link rel="stylesheet" href="componentes/caja-ensenanza/caja-ensenanza.css">
+  <script src="componentes/caja-ensenanza/caja-ensenanza.js" defer></script>
+  <link rel="stylesheet" href="componentes/palabra-original/palabra-original.css">
+  <script src="componentes/palabra-original/palabra-original.js" defer></script>
+  <link rel="stylesheet" href="componentes/tarjeta-rve/tarjeta-rve.css">
+  <link rel="stylesheet" href="componentes/visor-rve/visor-rve.css">
+  <script src="componentes/visor-rve/visor-rve.js" defer></script>
+  <script src="componentes/tarjeta-rve/tarjeta-rve.js" defer></script>
+  <link rel="stylesheet" href="componentes/bloque-exegetico/bloque-exegetico.css">
+  <script src="componentes/bloque-exegetico/bloque-exegetico.js" defer></script>
   <script src="editorial.js" defer></script>
+  <link rel="stylesheet" href="componentes/nota-versiculo/nota-versiculo.css">
+  <script src="componentes/nota-versiculo/nota-versiculo.js" defer></script>
+  <link rel="stylesheet" href="componentes/referencias-cruzadas/referencias-cruzadas.css">
+  <script src="componentes/referencias-cruzadas/referencias-cruzadas.js" defer></script>
+  <link rel="stylesheet" href="componentes/comparacion-biblica/comparacion-biblica.css">
+  <script src="componentes/comparacion-biblica/comparacion-biblica.js" defer></script>
+  <link rel="stylesheet" href="componentes/separador-titulo/separador-titulo.css">
+  <link rel="stylesheet" href="componentes/separador-banner/separador-banner.css">
+  <script src="componentes/separador-titulo/separador-titulo.js" defer></script>
+  <script src="componentes/separador-banner/separador-banner.js" defer></script>
+  <script src="componentes/divisiones-tematicas.experimental.js" defer></script>
+  <link rel="stylesheet" href="presentaciones/lectura.experimental.css">
+  <script src="presentaciones/lectura.experimental.js" defer></script>
+  <link rel="stylesheet" href="presentaciones/estudio.experimental.css">
+  <script src="presentaciones/estudio.experimental.js" defer></script>
+  <link rel="stylesheet" href="presentaciones/devocional.experimental.css">
+  <script src="presentaciones/devocional.experimental.js" defer></script>
   <script src="lector.js" defer></script>
   <script src="navegacion.js" defer></script>
 </head>
@@ -44,6 +71,24 @@
         <span class="linea-acento" aria-hidden="true"></span>
       </div>
       <p id="estado-editorial" role="status"></p>
+      <div class="selector-presentacion">
+        <label for="presentacion-experimental">Presentación experimental</label>
+        <select id="presentacion-experimental" aria-describedby="nota-presentacion" disabled>
+          <option value="lectura">Lectura</option>
+          <option value="estudio">Estudio</option>
+          <option value="devocional">Devocional</option>
+        </select>
+        <small id="nota-presentacion">Prueba local de organización de recursos. Contenidos pendientes de revisión.</small>
+      </div>
+      <div class="prueba-divisiones" hidden>
+        <label for="prueba-divisiones">Prueba experimental de separadores</label>
+        <select id="prueba-divisiones" aria-describedby="nota-divisiones">
+          <option value="lectura">Lectura · Títulos</option>
+          <option value="estudio">Estudio · Banners</option>
+          <option value="devocional">Devocional · Banners</option>
+        </select>
+        <small id="nota-divisiones">Solo cambia los separadores; los modos completos todavía no están implementados.</small>
+      </div>
       <div id="capitulo" aria-live="polite"></div>
     </section>
     </section>
@@ -64,6 +109,7 @@
       </div>
       </div>
     </section>
+    <p class="pie" data-publicacion-experimental="true">Versión experimental · Contenido pendiente de revisión · Recursos visuales y explicaciones elaborados con asistencia de IA.</p>
     <footer class="pie">BVI <span aria-hidden="true">·</span> Biblia Visual Interactiva <span class="pie-edicion">Reina Valera 1909</span></footer>
   </main>
   <nav class="navegacion-principal" aria-label="Navegación principal">

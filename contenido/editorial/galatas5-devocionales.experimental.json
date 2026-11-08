@@ -1,0 +1,59 @@
+{
+  "schema": "bvi.editorial.demo.experimental.v0.1",
+  "publication_allowed": false,
+  "scope_note": "Borradores devocionales privados vinculados a divisiones editoriales existentes. No son parte del texto bíblico ni contenido aprobado.",
+  "resources": [
+    {
+      "resource_id": "BVI-DEVOCIONAL-GAL-5-1-12",
+      "type": "devocional_seccion",
+      "section_id": "BVI-DIVISION-GAL-5-1-12",
+      "status": "borrador",
+      "publication_allowed": false,
+      "titulo": "Permanecer en la libertad de Cristo",
+      "descripcion": "Una pausa para considerar la libertad y la fe que obra por el amor.",
+      "accion_abrir": "Explorar reflexión",
+      "aviso_revision": "Devocional experimental · Pendiente de revisión bíblica, exegética y editorial · No publicable.",
+      "etiquetas": { "explicacion": "Lectura del pasaje · Propuesta provisional", "reflexion": "Reflexión devocional", "aplicacion": "Pregunta para la práctica" },
+      "explicacion": "Pablo exhorta a permanecer en la libertad de Cristo. En los versículos 2–4 aborda la circuncisión, la obligación de cumplir toda la ley y la pretensión de justificarse por ella. El versículo 6 destaca la fe que obra por el amor; el pasaje no presenta la libertad como ausencia de toda responsabilidad.",
+      "reflexion": "Como reflexión personal, esta lectura puede invitarnos a examinar en qué apoyamos nuestra confianza y cómo se expresa en nuestras relaciones. Esta invitación es una aplicación propuesta, no una definición adicional del texto.",
+      "aplicacion": "¿Qué gesto concreto de amor podría acompañar hoy mi confesión de fe, sin convertirlo en una forma de reclamar mérito ante Dios?",
+      "procedencia": "Borrador nuevo de BVI a partir de la RV1909 local, Gálatas 5:1–12; no deriva de una caja de enseñanza existente.",
+      "editorial_review": { "biblical_review": "pendiente", "exegetical_review": "pendiente", "editorial_review": "pendiente", "reviewers": null }
+    },
+    {
+      "resource_id": "BVI-DEVOCIONAL-GAL-5-13-15",
+      "type": "devocional_seccion",
+      "section_id": "BVI-DIVISION-GAL-5-13-15",
+      "status": "borrador",
+      "publication_allowed": false,
+      "titulo": "Libertad que se acerca al prójimo",
+      "descripcion": "Una pausa para revisar cómo tratamos a quienes tenemos cerca.",
+      "accion_abrir": "Explorar reflexión",
+      "aviso_revision": "Devocional experimental · Pendiente de revisión bíblica, exegética y editorial · No publicable.",
+      "etiquetas": { "explicacion": "Lectura del pasaje · Propuesta provisional", "reflexion": "Reflexión devocional", "aplicacion": "Pregunta para la práctica" },
+      "explicacion": "Pablo vincula el llamado a la libertad con el servicio mutuo por amor. Recuerda el mandato de amar al prójimo como a uno mismo y advierte que el daño recíproco puede destruir a la comunidad. Estas observaciones pertenecen al argumento de los versículos 13–15.",
+      "reflexion": "Como aplicación personal, podemos considerar si nuestra manera de ejercer la libertad abre espacio para el cuidado del otro. No se propone ignorar los conflictos ni justificar situaciones de abuso bajo la idea de servicio.",
+      "aplicacion": "¿Qué conversación o acción de cuidado puedo encarar con respeto, sin alimentar el daño mutuo?",
+      "procedencia": "Borrador nuevo de BVI a partir de la RV1909 local, Gálatas 5:13–15; pendiente de revisión independiente.",
+      "editorial_review": { "biblical_review": "pendiente", "exegetical_review": "pendiente", "editorial_review": "pendiente", "reviewers": null }
+    },
+    {
+      "resource_id": "BVI-DEVOCIONAL-GAL-5-16-26",
+      "type": "devocional_seccion",
+      "section_id": "BVI-DIVISION-GAL-5-16-26",
+      "status": "borrador",
+      "publication_allowed": false,
+      "titulo": "Caminar con atención al fruto",
+      "descripcion": "Una pausa para considerar la vida guiada por el Espíritu y las relaciones comunitarias.",
+      "accion_abrir": "Explorar reflexión",
+      "aviso_revision": "Devocional experimental · Pendiente de revisión bíblica, exegética y editorial · No publicable.",
+      "etiquetas": { "explicacion": "Lectura del pasaje · Propuesta provisional", "reflexion": "Reflexión devocional", "aplicacion": "Pregunta para la práctica" },
+      "explicacion": "La sección exhorta a andar en el Espíritu, presenta la oposición entre carne y Espíritu y contrasta las obras de la carne con el fruto del Espíritu. Su cierre vuelve a las relaciones entre personas, con una advertencia contra la vanagloria, la provocación y la envidia. Los aspectos debatidos de la relación con la ley requieren revisión exegética y no se resuelven en este devocional.",
+      "reflexion": "Como reflexión práctica, las cualidades enumeradas pueden orientar una revisión honesta de nuestras relaciones. No se usan como una escala para medir el valor de otras personas ni como promesa de cambios instantáneos.",
+      "aplicacion": "¿En qué relación concreta podría practicar hoy la mansedumbre o el dominio propio, y qué ayuda necesito para hacerlo?",
+      "procedencia": "Borrador nuevo de BVI a partir de la RV1909 local, Gálatas 5:16–26; pendiente de revisión especializada.",
+      "editorial_review": { "biblical_review": "pendiente", "exegetical_review": "pendiente", "editorial_review": "pendiente", "reviewers": null }
+    }
+  ],
+  "placements": []
+}

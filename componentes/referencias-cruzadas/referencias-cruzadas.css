@@ -1,0 +1,8 @@
+.referencias-cruzadas { margin: 16px 0; padding: 16px; border: 1px solid var(--borde); border-radius: 10px; background: var(--superficie-editorial); color: var(--texto); overflow-wrap: anywhere; }
+.referencias-cruzadas h3 { margin: 0 0 8px; font-size: 1rem; line-height: 1.5; }
+.referencias-cruzadas-origen { margin: 0; color: var(--texto-secundario); font-size: .85rem; }
+.referencias-cruzadas-aviso { margin: 8px 0 12px; color: var(--aviso); font-size: .75rem; line-height: 1.6; }
+.referencias-cruzadas-lista { margin: 0; padding-inline-start: 20px; }
+.referencias-cruzadas-lista li + li { margin-top: 12px; }
+.referencias-cruzadas-referencia { margin: 0 0 4px; font-weight: 650; color: var(--acento); }
+.referencias-cruzadas-relacion { margin: 0; line-height: 1.75; font-size: .9rem; }

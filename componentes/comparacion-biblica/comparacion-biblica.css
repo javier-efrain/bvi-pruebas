@@ -1,0 +1,14 @@
+.comparacion-biblica { margin: 20px 0; padding: 16px; border: 1px solid var(--borde); border-radius: 12px; background: var(--superficie-editorial); color: var(--texto); overflow-wrap: anywhere; }
+.comparacion-biblica > h3 { margin: 0 0 10px; font-size: 1.1rem; line-height: 1.5; color: var(--acento); }
+.comparacion-biblica-aviso { font-size: .8rem; line-height: 1.6; color: var(--aviso); }
+.comparacion-biblica-elementos { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 18px; }
+.comparacion-biblica-elemento { min-width: 0; padding: 16px; border: 1px solid var(--borde); border-radius: 8px; background: var(--superficie); }
+.comparacion-biblica h4 { margin: 0 0 16px; font-size: 1rem; line-height: 1.5; }
+.comparacion-biblica h5 { margin: 16px 0 8px; font-size: .8rem; line-height: 1.6; color: var(--texto-secundario); }
+.comparacion-biblica p, .comparacion-biblica li { line-height: 1.8; }
+.comparacion-biblica-elemento p, .comparacion-biblica-conclusion p { margin: 0; white-space: pre-wrap; }
+.comparacion-biblica ul { margin: 0; padding-inline-start: 20px; }
+.comparacion-biblica li + li { margin-top: 8px; }
+.comparacion-biblica-referencias { font-size: .85rem; }
+.comparacion-biblica-conclusion { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--borde); }
+@media (min-width: 768px) { .comparacion-biblica-elementos { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

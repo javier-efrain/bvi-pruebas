@@ -1,0 +1,24 @@
+{
+  "schema": "bvi.editorial.demo.experimental.v0.1",
+  "publication_allowed": false,
+  "resources": [
+    {
+      "resource_id": "BVI-REFERENCIAS-GAL-5-14",
+      "type": "referencias_cruzadas",
+      "status": "borrador",
+      "publication_allowed": false,
+      "titulo": "Pasajes relacionados",
+      "origen": { "book": 48, "chapter": 5, "verse": 14, "referencia": "Gálatas 5:14" },
+      "aviso_revision": "Relaciones propuestas editorialmente · Borrador pendiente de revisión bíblica y editorial · No publicable.",
+      "referencias": [
+        { "book": 3, "chapter": 19, "verse": 18, "referencia": "Levítico 19:18", "relacion": "Contiene el mandato de amar al prójimo como a uno mismo que también aparece en Gálatas 5:14. En Levítico está acompañado por la prohibición de vengarse y guardar rencor." },
+        { "book": 40, "chapter": 22, "verse": 39, "referencia": "Mateo 22:39", "relacion": "Jesús enuncia el mandato de amar al prójimo como a uno mismo y lo presenta como el segundo mandamiento. Comparte esa formulación con Gálatas 5:14." }
+      ],
+      "sources": [{ "title": "RV1909 · archivo local de BVI", "location": "contenido/rv_1909.json · Gálatas 5:14; Levítico 19:18; Mateo 22:39", "textual_check": "Referencias y formulaciones cotejadas con el archivo local" }],
+      "editorial_review": { "biblical_review": "pendiente", "editorial_review": "pendiente", "reviewers": null }
+    }
+  ],
+  "placements": [
+    { "placement_id": "BVI-REFERENCIAS-GAL-5-14-DESPUES", "resource_id": "BVI-REFERENCIAS-GAL-5-14", "anchor": { "book_id": "GAL", "chapter": 5, "verse_number": 14 }, "position": "after_verse", "order": 40, "status": "borrador", "publication_allowed": false }
+  ]
+}

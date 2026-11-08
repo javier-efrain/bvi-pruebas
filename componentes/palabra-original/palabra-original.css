@@ -1,0 +1,19 @@
+.palabra-original { margin: 16px 0; border: 1px solid var(--borde); border-radius: 12px; background: var(--superficie-editorial); color: var(--texto); overflow-wrap: anywhere; }
+.palabra-original-resumen { min-height: 48px; padding: 14px 16px; cursor: pointer; line-height: 1.65; }
+.palabra-original-resumen::marker { color: var(--acento); }
+.palabra-original-resumen:focus-visible { outline: 3px solid var(--turquesa); outline-offset: 3px; border-radius: 12px; }
+.palabra-original-termino { font-size: 1.15rem; font-weight: 650; color: var(--acento); unicode-bidi: isolate; }
+.palabra-original-transliteracion { font-style: italic; color: var(--texto-secundario); }
+.palabra-original-resumen > span { margin-inline-end: 10px; }
+.palabra-original-traduccion { font-weight: 600; }
+.palabra-original-idioma { display: inline-block; font-size: .75rem; padding: 1px 7px; border: 1px solid var(--borde); border-radius: 20px; color: var(--turquesa); }
+.palabra-original-resumen > .palabra-original-revision { display: block; margin-top: 4px; font-size: .75rem; color: var(--aviso); }
+.palabra-original[open] > .palabra-original-resumen { border-bottom: 1px solid var(--borde); }
+.palabra-original-contenido { padding: 16px; }
+.palabra-original-contenido h4 { margin: 0 0 8px; font-size: .9rem; color: var(--acento); }
+.palabra-original-contenido p { margin: 0; white-space: pre-wrap; line-height: 1.75; }
+.palabra-original-contenido > * + * { margin-top: 18px; }
+.palabra-original-contenido .palabra-original-aviso { margin: 0 0 18px; font-size: .8rem; color: var(--aviso); }
+.palabra-original-contenido ul { margin: 8px 0 0; padding-inline-start: 20px; }
+.palabra-original-contenido [lang] { unicode-bidi: isolate; }
+.palabra-original-referencias, .palabra-original-fuentes { font-size: .85rem; color: var(--texto-secundario); }

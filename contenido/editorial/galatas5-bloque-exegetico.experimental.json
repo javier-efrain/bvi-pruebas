@@ -1,0 +1,93 @@
+{
+  "schema": "bvi.editorial.demo.experimental.v0.1",
+  "publication_allowed": false,
+  "scope_note": "Borrador privado, sin compatibilidad completa declarada con el contrato editorial v0.3.",
+  "resources": [
+    {
+      "resource_id": "BVI-EXEGESIS-GAL-5-16-18",
+      "type": "bloque_exegetico",
+      "status": "borrador",
+      "publication_allowed": false,
+      "titulo": "Andar en el Espíritu",
+      "pasaje": "Gálatas 5:16–18",
+      "invitacion": "Explorá el contexto, el análisis y la interpretación",
+      "etiqueta_revision": "Borrador · Pendiente de revisión",
+      "aviso_revision": "Análisis experimental · Pendiente de revisión bíblica y editorial · No publicable.",
+      "etiqueta_fuentes": "Fuentes y revisión",
+      "nota_revision": "Borrador elaborado a partir de la RV1909 local. Falta cotejo especializado del texto griego, consulta bibliográfica crítica y aprobación bíblica y editorial. No constituye una aplicación devocional.",
+      "secciones": [
+        {
+          "id": "contexto",
+          "titulo": "Contexto",
+          "parrafos": [
+            "En Gálatas 5:13–15, Pablo vincula la libertad con el servicio por amor y advierte contra el daño mutuo. La exhortación de 5:16–18 continúa ese argumento sobre la vida de la comunidad.",
+            "La unidad siguiente contrasta las obras de la carne con el fruto del Espíritu (5:19–23). Los versículos 24–26 retoman la pertenencia a Cristo, el andar por el Espíritu y las relaciones comunitarias. Este marco evita leer 5:16–18 como una afirmación aislada."
+          ],
+          "referencias": [
+            "Gálatas 5:13–15",
+            "Gálatas 5:19–26"
+          ]
+        },
+        {
+          "id": "analisis",
+          "titulo": "Análisis",
+          "parrafos": [
+            "Observación textual: el versículo 16 comienza con una exhortación a andar en el Espíritu y la relaciona con no satisfacer la concupiscencia de la carne. El versículo 17 introduce con «Porque» una explicación basada en la oposición entre carne y Espíritu.",
+            "El versículo 18 introduce una condición: ser guiados del Espíritu, y afirma que quienes son guiados así no están bajo la ley. Son relaciones visibles en esta traducción; todavía no se presenta un análisis gramatical del griego.",
+            "La formulación final de 5:17, sobre no hacer lo que se quiere, requiere examinar cuidadosamente la relación entre deseo, conflicto y acción. Este borrador registra la dificultad sin decidir aquí entre las distintas explicaciones del pasaje."
+          ],
+          "referencias": [
+            "Gálatas 5:16",
+            "Gálatas 5:17",
+            "Gálatas 5:18"
+          ]
+        },
+        {
+          "id": "interpretacion",
+          "titulo": "Interpretación",
+          "parrafos": [
+            "Propuesta interpretativa provisional: Pablo presenta la guía del Espíritu como orientación de una vida que no se rige por los deseos de la carne. El contraste debe leerse junto con las conductas y relaciones que enumera después; no justifica identificar sin más el cuerpo humano con el mal.",
+            "La afirmación «no estáis bajo la ley» pertenece al argumento de Gálatas sobre ley, fe y libertad. Su alcance y su relación con las obligaciones éticas son cuestiones que requieren revisión especializada. No debe usarse aisladamente para afirmar que desaparece toda responsabilidad: el contexto inmediato insiste en el amor y el servicio.",
+            "La exhortación no se convierte aquí en una receta devocional ni en una promesa de ausencia de conflicto. La relación entre guía del Espíritu, libertad y respuesta humana queda formulada como lectura contextual provisional, abierta al cotejo de otras interpretaciones."
+          ],
+          "referencias": [
+            "Gálatas 2:15–21",
+            "Gálatas 3:23–25",
+            "Gálatas 5:13–26"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "RV1909-LOCAL",
+          "title": "RV1909 · archivo local de BVI",
+          "location": "contenido/rv_1909.json · libro 48, capítulo 5, versículos 13–26; referencias de contraste: 2:15–21 y 3:23–25",
+          "consulted_at": "2026-11-07"
+        }
+      ],
+      "editorial_review": {
+        "biblical_review": "pendiente",
+        "greek_text_review": "pendiente",
+        "bibliographic_review": "pendiente",
+        "editorial_review": "pendiente",
+        "reviewers": null,
+        "rights_status": "pendiente"
+      }
+    }
+  ],
+  "placements": [
+    {
+      "placement_id": "BVI-EXEGESIS-GAL-5-18-DESPUES",
+      "resource_id": "BVI-EXEGESIS-GAL-5-16-18",
+      "anchor": {
+        "book_id": "GAL",
+        "chapter": 5,
+        "verse_number": 18
+      },
+      "position": "after_verse",
+      "order": 30,
+      "status": "borrador",
+      "publication_allowed": false
+    }
+  ]
+}

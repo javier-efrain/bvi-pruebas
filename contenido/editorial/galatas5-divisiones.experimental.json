@@ -1,0 +1,27 @@
+{
+  "schema": "bvi.editorial.demo.experimental.v0.1",
+  "publication_allowed": false,
+  "scope_note": "Propuestas de organización temática; no pertenecen al texto bíblico original. Pendientes de revisión editorial.",
+  "resources": [
+    {
+      "resource_id": "BVI-DIVISION-GAL-5-1-12", "type": "division_tematica", "status": "borrador", "publication_allowed": false,
+      "titulo": "La libertad en Cristo", "referencia": "Gálatas 5:1–12", "rango": { "inicio": 1, "fin": 12 },
+      "etiqueta_editorial": "Propuesta editorial · Pendiente de revisión"
+    },
+    {
+      "resource_id": "BVI-DIVISION-GAL-5-13-15", "type": "division_tematica", "status": "borrador", "publication_allowed": false,
+      "titulo": "Libertad para servir por amor", "referencia": "Gálatas 5:13–15", "rango": { "inicio": 13, "fin": 15 },
+      "etiqueta_editorial": "Propuesta editorial · Pendiente de revisión"
+    },
+    {
+      "resource_id": "BVI-DIVISION-GAL-5-16-26", "type": "division_tematica", "status": "borrador", "publication_allowed": false,
+      "titulo": "La vida guiada por el Espíritu", "referencia": "Gálatas 5:16–26", "rango": { "inicio": 16, "fin": 26 },
+      "etiqueta_editorial": "Propuesta editorial · Pendiente de revisión"
+    }
+  ],
+  "placements": [
+    { "placement_id": "BVI-DIVISION-GAL-5-1", "resource_id": "BVI-DIVISION-GAL-5-1-12", "anchor": { "book_id": "GAL", "chapter": 5, "verse_number": 1 }, "position": "before_verse", "status": "borrador", "publication_allowed": false, "order": 0 },
+    { "placement_id": "BVI-DIVISION-GAL-5-13", "resource_id": "BVI-DIVISION-GAL-5-13-15", "anchor": { "book_id": "GAL", "chapter": 5, "verse_number": 13 }, "position": "before_verse", "status": "borrador", "publication_allowed": false, "order": 0 },
+    { "placement_id": "BVI-DIVISION-GAL-5-16", "resource_id": "BVI-DIVISION-GAL-5-16-26", "anchor": { "book_id": "GAL", "chapter": 5, "verse_number": 16 }, "position": "before_verse", "status": "borrador", "publication_allowed": false, "order": 0 }
+  ]
+}

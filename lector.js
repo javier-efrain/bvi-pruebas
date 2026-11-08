@@ -21,6 +21,8 @@ function dibujarVersiculo(versiculo) {
 function dibujarCapitulo(capitulo) {
   const contenedor = document.getElementById("capitulo");
   const fragmento = document.createDocumentFragment();
+  const presentacion = presentacionesExperimentales.obtener();
+  if (presentacionLectura.activa) presentacion.iniciar?.();
 
   // Ordena una copia para conservar intactos los datos de origen.
   const versiculosOrdenados = [...capitulo.versiculos].sort(
@@ -28,8 +30,17 @@ function dibujarCapitulo(capitulo) {
   );
 
   for (const versiculo of versiculosOrdenados) {
-    fragmento.append(dibujarVersiculo(versiculo));
-    fragmento.append(...editorial.tarjetasPara(
+    fragmento.append(...(presentacionLectura.activa ? presentacion.antes(capitulo.libro, capitulo.numeroCapitulo, versiculo.numero) : editorial.tarjetasPara(
+      capitulo.libro, capitulo.numeroCapitulo, versiculo.numero, "before_verse"
+    )));
+    const elementoVersiculo = dibujarVersiculo(versiculo);
+    elementoVersiculo.dataset.verseNumber = String(versiculo.numero);
+    const indicador = presentacionLectura.activa ? presentacion.indicador(capitulo.libro, capitulo.numeroCapitulo, versiculo.numero)
+      : editorial.indicadorNotasPara(capitulo.libro, capitulo.numeroCapitulo, versiculo.numero);
+    if (indicador) elementoVersiculo.append(indicador);
+    fragmento.append(elementoVersiculo);
+    if (presentacionLectura.activa) fragmento.append(...(presentacion.despues?.(capitulo.libro, capitulo.numeroCapitulo, versiculo.numero) || []));
+    if (!presentacionLectura.activa) fragmento.append(...editorial.tarjetasPara(
       capitulo.libro, capitulo.numeroCapitulo, versiculo.numero
     ));
   }
@@ -135,12 +146,17 @@ async function iniciarLector(ruta) {
       fragmento.append(crearOpcion(numero, libros.get(numero).nombre));
     }
     selectorLibro.replaceChildren(fragmento);
-    await editorial.cargar();
+    await editorial.cargar(
+      "contenido/editorial/denario-demo.json",
+      "contenido/editorial/galatas5-contexto.json",
+      "contenido/editorial/galatas5-rve.experimental.json"
+    );
     const lecturaInicial = recuperarLectura();
     selectorLibro.value = String(lecturaInicial.libro);
     actualizarCapitulos(lecturaInicial.libro, lecturaInicial.capitulo);
     selectorLibro.disabled = false;
     selectorCapitulo.disabled = false;
+    document.getElementById("presentacion-experimental").disabled = false;
   } catch (error) {
     contenedor.textContent = "No pudimos cargar el capítulo. Comprobá tu conexión y recargá la página para volver a intentarlo.";
     console.error("Error al cargar el capítulo:", error);

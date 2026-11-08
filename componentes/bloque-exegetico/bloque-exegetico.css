@@ -1,0 +1,21 @@
+.bloque-exegetico { margin: 16px 0; border: 1px solid var(--borde); border-inline-start: 3px solid var(--acento); border-radius: 12px; background: var(--superficie-editorial); color: var(--texto); overflow-wrap: anywhere; }
+.bloque-exegetico-resumen { padding: 16px; min-height: 48px; cursor: pointer; line-height: 1.6; }
+.bloque-exegetico-resumen::marker { color: var(--acento); }
+.bloque-exegetico-resumen span { display: block; }
+.bloque-exegetico-titulo { font-weight: 650; font-size: 1.05rem; }
+.bloque-exegetico-pasaje { color: var(--acento); }
+.bloque-exegetico-invitacion { color: var(--texto-secundario); font-size: .85rem; }
+.bloque-exegetico-revision, .bloque-exegetico-aviso { color: var(--aviso); font-size: .8rem; }
+.bloque-exegetico[open] > summary { border-bottom: 1px solid var(--borde); }
+.bloque-exegetico-contenido { padding: 16px; }
+.bloque-exegetico-pestanas { display: flex; flex-wrap: wrap; gap: 6px; margin-block: 16px; }
+.bloque-exegetico-pestanas button { flex: 1 1 100px; min-width: 0; min-height: 44px; padding: 10px 8px; border: 1px solid var(--borde); border-radius: 8px; font: inherit; font-size: .85rem; background: var(--superficie-control); color: var(--texto); cursor: pointer; }
+.bloque-exegetico-pestanas [aria-selected="true"] { border-color: var(--acento); color: var(--acento); font-weight: 700; box-shadow: inset 0 -3px var(--acento); }
+.bloque-exegetico :is(summary, button, [role="tabpanel"]):focus-visible { outline: 3px solid var(--turquesa); outline-offset: 3px; }
+.bloque-exegetico-panel[hidden] { display: none; }
+.bloque-exegetico-panel h4 { margin: 0 0 12px; color: var(--acento); }
+.bloque-exegetico-panel p { line-height: 1.8; white-space: pre-wrap; margin: 0 0 16px; }
+.bloque-exegetico-referencias, .bloque-exegetico-fuentes { color: var(--texto-secundario); font-size: .85rem; }
+.bloque-exegetico-fuentes > summary { min-height: 44px; padding-block: 12px; cursor: pointer; }
+.bloque-exegetico-fuentes ul { padding-inline-start: 20px; }
+.bloque-exegetico-fuentes li, .bloque-exegetico-fuentes p { line-height: 1.7; }

@@ -1,0 +1,42 @@
+{
+  "schema": "bvi.editorial.demo.experimental.v0.1",
+  "publication_allowed": false,
+  "scope_note": "Comparación editorial de prueba privada; no sustituye al texto bíblico ni constituye una traducción.",
+  "resources": [
+    {
+      "resource_id": "BVI-COMPARACION-GAL-5-19-23",
+      "type": "comparacion_biblica",
+      "status": "borrador",
+      "publication_allowed": false,
+      "titulo": "Obras de la carne y fruto del Espíritu",
+      "aviso_revision": "Comparación experimental · Borrador pendiente de revisión bíblica y editorial · No publicable. Las observaciones resumen el pasaje; las explicaciones son propuestas editoriales.",
+      "etiquetas": { "observaciones": "Observaciones explícitas del pasaje", "explicacion": "Explicación editorial provisional", "referencias": "Referencias bíblicas", "conclusion": "Síntesis editorial provisional" },
+      "elementos": [
+        {
+          "encabezado": "Obras de la carne",
+          "observaciones": [
+            "Pablo presenta las obras de la carne como manifiestas e introduce una enumeración (5:19).",
+            "La lista incluye conductas como idolatría, enemistades, celos y envidias. El versículo 21 añade otras cosas semejantes y una advertencia sobre quienes practican tales cosas."
+          ],
+          "explicacion": "La enumeración incluye comportamientos que dañan las relaciones, además de otras conductas. Su relación con la advertencia anterior contra el daño mutuo puede ayudar a leer el conflicto comunitario de la carta. No se propone emparejar cada obra con una cualidad del fruto ni establecer correspondencias que el pasaje no formula.",
+          "referencias": ["Gálatas 5:19–21", "Gálatas 5:15"]
+        },
+        {
+          "encabezado": "Fruto del Espíritu",
+          "observaciones": [
+            "El versículo 22 introduce el fruto del Espíritu en contraste con la enumeración anterior.",
+            "La RV1909 enumera caridad, gozo, paz, tolerancia, benignidad, bondad, fe, mansedumbre y templanza. El versículo 23 afirma que contra tales cosas no hay ley."
+          ],
+          "explicacion": "Estas cualidades pueden leerse en continuidad con el servicio por amor y con la exhortación a andar por el Espíritu. La forma singular de fruto no basta, por sí sola, para resolver debates sobre cómo se desarrollan esas cualidades. Esta comparación organiza la lectura; no convierte la lista en una escala de valor de las personas.",
+          "referencias": ["Gálatas 5:22–23", "Gálatas 5:13", "Gálatas 5:25"]
+        }
+      ],
+      "conclusion": "El contraste invita a leer ambas enumeraciones dentro del argumento sobre la vida guiada por el Espíritu. La disposición en columnas es una ayuda editorial, no una estructura añadida al texto bíblico original ni una equivalencia término por término.",
+      "sources": [{ "title": "RV1909 · archivo local de BVI", "location": "contenido/rv_1909.json · libro 48, capítulo 5, versículos 13–25" }],
+      "editorial_review": { "biblical_review": "pendiente", "editorial_review": "pendiente", "reviewers": null }
+    }
+  ],
+  "placements": [
+    { "placement_id": "BVI-COMPARACION-GAL-5-23-DESPUES", "resource_id": "BVI-COMPARACION-GAL-5-19-23", "anchor": { "book_id": "GAL", "chapter": 5, "verse_number": 23 }, "position": "after_verse", "order": 40, "status": "borrador", "publication_allowed": false }
+  ]
+}

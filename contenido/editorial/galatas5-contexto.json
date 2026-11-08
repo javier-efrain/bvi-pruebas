@@ -1,0 +1,21 @@
+{
+  "schema": "bvi.editorial.demo.experimental.v0.1",
+  "scope_note": "Caja editorial experimental; no implementa el contrato editorial v0.3 completo.",
+  "resources": [
+    {
+      "resource_id": "BVI-CONTEXTO-GAL-5",
+      "type": "caja_contexto",
+      "status": "borrador",
+      "titulo": "Contexto del pasaje",
+      "texto": "Pablo desarrolla la relación entre la libertad en Cristo y el peligro de volver a someterse a la obligación de la ley como fundamento de la justificación.",
+      "referencia": "Gálatas 5:1–12."
+    }
+  ],
+  "placements": [
+    {
+      "placement_id": "BVI-CONTEXTO-GAL-5-1",
+      "resource_id": "BVI-CONTEXTO-GAL-5",
+      "anchor": { "book_id": "GAL", "chapter": 5, "verse_number": 1 }
+    }
+  ]
+}

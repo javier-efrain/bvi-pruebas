@@ -1,0 +1,16 @@
+{
+  "schema": "bvi.editorial.catalog.experimental.v0.1",
+  "publication_allowed": false,
+  "files": [
+    "contenido/editorial/denario-demo.json",
+    "contenido/editorial/galatas5-contexto.json",
+    "contenido/editorial/galatas5-rve.experimental.json",
+    "contenido/editorial/galatas5-ensenanza.experimental.json",
+    "contenido/editorial/galatas5-palabra-original.experimental.json",
+    "contenido/editorial/galatas5-bloque-exegetico.experimental.json",
+    "contenido/editorial/galatas5-divisiones.experimental.json",
+    "contenido/editorial/galatas5-comparacion.experimental.json",
+    "contenido/editorial/galatas5-referencias-cruzadas.experimental.json",
+    "contenido/editorial/galatas5-notas.experimental.json"
+  ]
+}

@@ -1,0 +1,12 @@
+.acceso-recursos-indicador { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; margin-inline-start: 6px; padding: 4px; border: 1px solid var(--borde); border-radius: 50%; background: var(--superficie-control); color: var(--acento); font: inherit; font-size: 1rem; vertical-align: middle; cursor: pointer; }
+.acceso-recursos-menu, .recurso-lectura-panel { box-sizing: border-box; width: min(720px, calc(100% - 24px)); max-height: calc(100dvh - 40px); padding: 18px; border: 1px solid var(--borde); border-radius: 12px; background: var(--superficie-editorial); color: var(--texto); overflow: auto; overflow-wrap: anywhere; }
+.acceso-recursos-menu { width: min(440px, calc(100% - 24px)); }
+.acceso-recursos-menu::backdrop, .recurso-lectura-panel::backdrop { background: rgb(0 0 0 / .5); }
+.acceso-recursos-menu h2, .recurso-lectura-panel h2 { margin: 0 0 12px; font-size: 1.1rem; line-height: 1.5; }
+.acceso-recursos-menu ul { list-style: none; padding: 0; margin: 12px 0 0; }
+.acceso-recursos-menu li + li { margin-top: 8px; }
+.acceso-recursos-menu button, .acceso-recursos-cerrar { min-height: 44px; padding: 10px 12px; border: 1px solid var(--borde); border-radius: 8px; font: inherit; background: var(--superficie-control); color: var(--texto); cursor: pointer; }
+.acceso-recursos-menu li button { width: 100%; text-align: start; }
+.acceso-recursos-menu span, .acceso-recursos-menu small { display: block; line-height: 1.6; }
+.acceso-recursos-menu small { color: var(--texto-secundario); font-size: .8rem; }
+.acceso-recursos-indicador:focus-visible, :is(.acceso-recursos-menu, .recurso-lectura-panel) :is(button, summary, [tabindex]):focus-visible { outline: 3px solid var(--turquesa); outline-offset: 2px; }

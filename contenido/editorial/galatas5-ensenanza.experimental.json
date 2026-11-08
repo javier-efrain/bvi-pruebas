@@ -1,0 +1,30 @@
+{
+  "schema": "bvi.editorial.demo.experimental.v0.1",
+  "scope_note": "Enseñanza de prueba privada. Borrador pendiente de revisión bíblica y editorial; no implementa el contrato v0.3 completo.",
+  "publication_allowed": false,
+  "resources": [
+    {
+      "resource_id": "BVI-ENSENANZA-GAL-5-13",
+      "type": "caja_ensenanza",
+      "status": "borrador",
+      "publication_allowed": false,
+      "titulo": "Libertad para servir por amor",
+      "aviso_revision": "Borrador experimental · Pendiente de revisión bíblica y editorial · No publicable.",
+      "explicacion": "En Gálatas 5:13, Pablo relaciona el llamado a la libertad con el servicio mutuo por amor. Advierte que esa libertad no debe convertirse en una ocasión para la carne. El versículo orienta al lector a una libertad que tiene en cuenta al prójimo, y el versículo siguiente vincula esa orientación con el amor al otro.",
+      "aplicacion": "Como ejercicio de reflexión, pensá en una situación cotidiana en la que puedas usar tu tiempo o tus capacidades para ayudar a otra persona. Elegí una acción concreta de servicio y examiná si nace del amor o del deseo de imponerte. Esta propuesta práctica debe distinguirse de la explicación del sentido del pasaje.",
+      "referencias": ["Gálatas 5:13", "Gálatas 5:14"],
+      "conclusion": "La libertad y el servicio no aparecen aquí como opuestos: el llamado es a servir unos a otros por amor.",
+      "editorial_review": { "biblical_review": "pendiente", "editorial_review": "pendiente", "reviewers": null, "reviewed_at": null, "sources_review": "pendiente" }
+    }
+  ],
+  "placements": [
+    {
+      "placement_id": "BVI-ENSENANZA-GAL-5-13-DESPUES",
+      "resource_id": "BVI-ENSENANZA-GAL-5-13",
+      "anchor": { "book_id": "GAL", "chapter": 5, "verse_number": 13 },
+      "position": "after_verse",
+      "status": "borrador",
+      "publication_allowed": false
+    }
+  ]
+}

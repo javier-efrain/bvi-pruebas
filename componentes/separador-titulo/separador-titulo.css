@@ -1,0 +1,3 @@
+.separador-titulo { margin: 32px 0 16px; padding-block: 14px; border-top: 1px solid var(--borde); color: var(--texto); overflow-wrap: anywhere; }
+.separador-titulo h3 { margin: 6px 0; font-size: 1.1rem; line-height: 1.5; font-weight: 600; }
+.separador-titulo-aviso, .separador-titulo-referencia { margin: 0; font-size: .75rem; line-height: 1.6; color: var(--texto-secundario); }

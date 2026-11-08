@@ -1,0 +1,16 @@
+.selector-presentacion { margin: 16px 0; }
+.selector-presentacion label, .selector-presentacion small { display: block; line-height: 1.6; }
+.selector-presentacion label { color: var(--texto); }
+.selector-presentacion small { color: var(--texto-secundario); font-size: .8rem; }
+.selector-presentacion select { width: 100%; min-height: 44px; margin-block: 8px; padding: 10px; border: 1px solid var(--borde); border-radius: 8px; background: var(--superficie-control); color: var(--texto); font: inherit; }
+.estudio-resumen { margin: 16px 0; border: 1px solid var(--borde); border-radius: 12px; background: var(--superficie-editorial); color: var(--texto); overflow-wrap: anywhere; }
+.estudio-resumen-abrir { width: 100%; min-height: 44px; padding: 16px; border: 0; border-radius: 12px; background: transparent; color: inherit; font: inherit; text-align: start; cursor: pointer; }
+.estudio-resumen-abrir span { display: block; line-height: 1.65; }
+.estudio-resumen-titulo { font-weight: 650; }
+.estudio-resumen-tipo { margin-top: 6px; font-size: .75rem; color: var(--acento); }
+.estudio-resumen-texto { margin-top: 8px; font-size: .85rem; color: var(--texto-secundario); }
+.estudio-rve .tarjeta-rve-abrir { flex-direction: column; align-items: stretch; padding: 18px; }
+.estudio-rve .tarjeta-rve-abrir img { width: 100%; height: clamp(180px, 40vw, 300px); object-fit: contain; }
+.estudio-rve .tarjeta-rve-abrir strong { font-size: 1.1rem; }
+.estudio-complementarios { min-width: 44px; min-height: 44px; font-size: .9rem; }
+.selector-presentacion select:focus-visible, .estudio-resumen-abrir:focus-visible { outline: 3px solid var(--turquesa); outline-offset: 3px; border-radius: 8px; }

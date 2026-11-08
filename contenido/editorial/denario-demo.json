@@ -1,0 +1,20 @@
+{
+  "schema": "bvi.editorial.demo.experimental.v0.1",
+  "scope_note": "Subconjunto técnico inspirado en la propuesta editorial v0.3; no implementa ni valida el contrato completo. Sin modos, multimedia ni afirmaciones históricas verificadas.",
+  "resources": [
+    {
+      "resource_id": "BVI-DEMO-DENARIO",
+      "title": "El denario romano",
+      "comprehension_problem": "¿Por qué Jesús pide una moneda y pregunta por su imagen e inscripción?",
+      "status": "borrador",
+      "review_notice": "Demostración editorial · Pendiente de revisión · No publicable."
+    }
+  ],
+  "placements": [
+    {
+      "placement_id": "BVI-DEMO-DENARIO-MRK-12-16",
+      "resource_id": "BVI-DEMO-DENARIO",
+      "anchor": { "book_id": "MRK", "chapter": 12, "verse_number": 16 }
+    }
+  ]
+}

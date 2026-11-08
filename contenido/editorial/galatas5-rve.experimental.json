@@ -1,0 +1,413 @@
+{
+  "schema": "bvi.rve.extraction.experimental.v0.1",
+  "scope_note": "Extracción privada fiel del piloto. No es el contrato editorial v0.3 completo ni un recurso aprobado para publicación.",
+  "publication_allowed": false,
+  "source": {
+    "sha256": "da953b15122293c724a126049b9e5f41c33aa0579f7db4789c4bea1a7ebaab8a"
+  },
+  "resources": [
+    {
+      "resource_id": "BVI-GAL5-RVE01",
+      "source_id": "RVE01",
+      "type": "rve_experimental",
+      "title": "Carne y Espíritu",
+      "order": 1,
+      "status": "pendiente_revision",
+      "publication_allowed": false,
+      "source": {
+        "pilot_resource_sha256": "40595c8137c77234c68b21b3b30647e26b1b59a3258b4cc82ca0755953dfa790"
+      },
+      "image": {
+        "original": {
+          "path": "contenido/imagenes/galatas5/originales/rve01.png",
+          "mime_type": "image/png",
+          "width": 1672,
+          "height": 941,
+          "bytes": 2301464,
+          "sha256": "0b1a3264a2925e3df510c7e6f9857e108fee998ec8afa3fe1af2e7f0401f8adf"
+        },
+        "thumbnail": {
+          "path": "contenido/imagenes/galatas5/miniaturas/rve01.jpg",
+          "mime_type": "image/jpeg",
+          "width": 480,
+          "height": 270,
+          "bytes": 47675,
+          "sha256": "3c8f72e4a2895b889dba6fa3f0b29687712db9d7914b1441409d78baf35d42e5",
+          "processing": "Ajuste proporcional a 480×640 máximo, sin recorte; JPEG calidad 78, fondo blanco."
+        },
+        "alt_text": null
+      },
+      "points": [
+        {
+          "point_id": "RVE01-P01",
+          "name": "Introducción",
+          "description": "Pablo enseña que la libertad recibida en Cristo no es una excusa para hacer cualquier cosa. En Gálatas 5 llama a los creyentes a servirse unos a otros por amor. En ese contexto presenta el contraste entre vivir según la carne y andar por el Espíritu.\n\nNo está describiendo una batalla entre un cuerpo malo y un alma buena. Está mostrando dos orientaciones opuestas: una vida que sigue deseos contrarios a Dios y una vida guiada por el Espíritu Santo."
+        },
+        {
+          "point_id": "RVE01-P02",
+          "name": "Carne",
+          "description": "La palabra griega sárx (σάρξ) significa «carne», pero su sentido depende del contexto. Aquí no se refiere simplemente al cuerpo físico. Pablo incluye entre las obras de la carne conductas como los celos, las rivalidades y las envidias: actitudes que pueden manifestarse sin relación con los deseos corporales.\n\nPor eso, cuando habla de la carne en este pasaje, señala la orientación humana que se resiste a la voluntad de Dios. El cuerpo no es el enemigo; el problema es vivir de espaldas a Dios."
+        },
+        {
+          "point_id": "RVE01-P03",
+          "name": "Espíritu",
+          "description": "El término griego pneûma (πνεῦμα) puede significar «espíritu» o «aliento» según el contexto. En Gálatas 5, Pablo habla del Espíritu Santo, no simplemente de la conciencia, la emoción religiosa o la fuerza de voluntad.\n\nSu dirección se reconoce en una vida que aprende a amar y a actuar de manera diferente. No significa que cada impulso interior sea automáticamente una indicación divina."
+        },
+        {
+          "point_id": "RVE01-P04",
+          "name": "El conflicto",
+          "description": "En Gálatas 5:17 Pablo explica que los deseos de la carne y la dirección del Espíritu se oponen. El creyente puede experimentar esa tensión; seguir al Espíritu no equivale a dejar de tener tentaciones.\n\nTampoco significa que las decisiones personales ya no importen. La exhortación a «andar» por el Espíritu supone una conducta sostenida, no una experiencia aislada."
+        },
+        {
+          "point_id": "RVE01-P05",
+          "name": "Ejemplo práctico",
+          "description": "Imaginá que alguien te critica injustamente. Podés alimentar el resentimiento, responder con humillaciones y buscar venganza. O podés reconocer tu enojo y procurar una respuesta firme, respetuosa y sin deseo de perjudicar al otro.\n\nSentir enojo no demuestra por sí solo que estés viviendo según la carne. Lo decisivo es qué hacés con ese enojo y hacia dónde orientás tu respuesta."
+        },
+        {
+          "point_id": "RVE01-P06",
+          "name": "Libertad y ley",
+          "description": "Pablo afirma que quienes son guiados por el Espíritu no están bajo la ley (Gálatas 5:18). No está diciendo que el bien y el mal hayan dejado de importar. Su argumento es que la vida en Cristo no se rige por la ley de Moisés como régimen de pertenencia y obligación religiosa. Eso no elimina la responsabilidad moral: Pablo insiste en que la libertad debe expresarse en el amor y en una conducta guiada por el Espíritu.\n\nPara recordar: andar por el Espíritu no es negar la existencia del conflicto interior, sino aprender a vivir bajo la dirección de Dios en medio de él."
+        }
+      ],
+      "editorial": {
+        "authorship": null,
+        "reviewers": null,
+        "reviewed_at": null,
+        "sources": null,
+        "rights_status": "pendiente",
+        "rights_evidence": null,
+        "content_version": null,
+        "learning_outcome": null,
+        "usefulness_check": null,
+        "hotspot_coordinates": null,
+        "missing_metadata": [
+          "Autoría y procedencia verificadas de cada imagen y explicación",
+          "Fuentes y revisión de las afirmaciones",
+          "Licencia, atribución y evidencia de derechos",
+          "Responsables y fecha de revisión editorial",
+          "Texto alternativo revisado",
+          "Versión editorial aprobada",
+          "Objetivo pedagógico y comprobación de utilidad",
+          "Coordenadas si se incorporan hotspots"
+        ]
+      }
+    },
+    {
+      "resource_id": "BVI-GAL5-RVE02",
+      "source_id": "RVE02",
+      "type": "rve_experimental",
+      "title": "Obras de la carne y fruto del Espíritu",
+      "order": 2,
+      "status": "pendiente_revision",
+      "publication_allowed": false,
+      "source": {
+        "pilot_resource_sha256": "4101947dd4cb3df9271421a447539d44f02dbb8414261b9e7eddceda9f873dff"
+      },
+      "image": {
+        "original": {
+          "path": "contenido/imagenes/galatas5/originales/rve02.png",
+          "mime_type": "image/png",
+          "width": 1672,
+          "height": 941,
+          "bytes": 2324904,
+          "sha256": "11a32d63f590a9d862b3a716737534364c2a9243a24406ee4ffaa94fbceba109"
+        },
+        "thumbnail": {
+          "path": "contenido/imagenes/galatas5/miniaturas/rve02.jpg",
+          "mime_type": "image/jpeg",
+          "width": 480,
+          "height": 270,
+          "bytes": 50550,
+          "sha256": "fbf03502273a71e5e48c9fc24fc3cb507780397757a970c1d3d47d00ef74cf4d",
+          "processing": "Ajuste proporcional a 480×640 máximo, sin recorte; JPEG calidad 78, fondo blanco."
+        },
+        "alt_text": null
+      },
+      "points": [
+        {
+          "point_id": "RVE02-P01",
+          "name": "Dos resultados",
+          "description": "Pablo no presenta dos listas para que comparemos quién es mejor persona. Contrasta conductas que dañan la vida con otros y cualidades que el Espíritu produce en quienes viven bajo su dirección. La pregunta no es solamente qué hacemos, sino qué clase de vida estamos cultivando."
+        },
+        {
+          "point_id": "RVE02-P02",
+          "name": "Obras (plural)",
+          "description": "Pablo utiliza érga (ἔργα), «obras», para hablar de comportamientos concretos y reconocibles. Entre ellos menciona inmoralidad sexual, idolatría, enemistades, pleitos, celos, enojos, rivalidades, divisiones, envidias y excesos.\n\nLa lista no se limita a acciones que solemos considerar escandalosas. Varias de esas obras destruyen relaciones dentro de una comunidad. Tampoco pretende ser un catálogo exhaustivo: Pablo añade una expresión equivalente a «cosas semejantes a estas»."
+        },
+        {
+          "point_id": "RVE02-P03",
+          "name": "Fruto (singular)",
+          "description": "En contraste, utiliza karpós (καρπός), «fruto», y enumera amor, gozo, paz, paciencia, benignidad, bondad, fidelidad, mansedumbre y dominio propio.\n\nLa imagen del fruto habla de un resultado que crece y se hace visible. El singular ayuda a presentar esas cualidades como una obra del Espíritu, pero no demuestra por sí solo que todas deban manifestarse siempre con idéntica intensidad ni que Pablo esté formulando una regla gramatical sobre nueve virtudes inseparables."
+        },
+        {
+          "point_id": "RVE02-P04",
+          "name": "Advertencia",
+          "description": "En Gálatas 5:21 Pablo advierte sobre quienes practican tales cosas y no heredarán el reino de Dios. No es una invitación a declarar perdida a una persona por una caída aislada ni a minimizar la gravedad de una conducta persistente.\n\nLa advertencia llama a examinar una manera de vivir. El arrepentimiento y la restauración no deben confundirse con justificar voluntariamente lo que destruye a otros."
+        },
+        {
+          "point_id": "RVE02-P05",
+          "name": "Ejemplo práctico",
+          "description": "Dos personas tienen un desacuerdo en la iglesia. Una comienza a difundir rumores, reúne seguidores y alimenta una rivalidad. La otra escucha, habla con honestidad y busca resolver el conflicto sin humillar.\n\nLa diferencia no está en que una nunca se haya enojado. Está en el rumbo que toma su conducta: la carne puede convertir una diferencia en división; el fruto del Espíritu orienta hacia el amor y la paz."
+        },
+        {
+          "point_id": "RVE02-P06",
+          "name": "La ley",
+          "description": "Pablo concluye que contra esas cualidades no hay ley (Gálatas 5:23). No propone una vida sin orientación moral. Subraya que el amor, la paciencia y el dominio propio no son conductas que la ley deba condenar.\n\nPara recordar: las obras de la carne muestran conductas que dañan; el fruto del Espíritu describe una vida que comienza a reflejar el carácter que Dios desea formar."
+        }
+      ],
+      "editorial": {
+        "authorship": null,
+        "reviewers": null,
+        "reviewed_at": null,
+        "sources": null,
+        "rights_status": "pendiente",
+        "rights_evidence": null,
+        "content_version": null,
+        "learning_outcome": null,
+        "usefulness_check": null,
+        "hotspot_coordinates": null,
+        "missing_metadata": [
+          "Autoría y procedencia verificadas de cada imagen y explicación",
+          "Fuentes y revisión de las afirmaciones",
+          "Licencia, atribución y evidencia de derechos",
+          "Responsables y fecha de revisión editorial",
+          "Texto alternativo revisado",
+          "Versión editorial aprobada",
+          "Objetivo pedagógico y comprobación de utilidad",
+          "Coordenadas si se incorporan hotspots"
+        ]
+      }
+    },
+    {
+      "resource_id": "BVI-GAL5-RVE03",
+      "source_id": "RVE03",
+      "type": "rve_experimental",
+      "title": "Las nueve cualidades del fruto",
+      "order": 3,
+      "status": "pendiente_revision",
+      "publication_allowed": false,
+      "source": {
+        "pilot_resource_sha256": "a1f3e697a7638f65116c2733ec6b1903f9d3715778ea5b2e3df1fcf517046bf1"
+      },
+      "image": {
+        "original": {
+          "path": "contenido/imagenes/galatas5/originales/rve03.png",
+          "mime_type": "image/png",
+          "width": 1672,
+          "height": 941,
+          "bytes": 2330101,
+          "sha256": "4782b25065214719467c761f6f9dce37076c81dbf1a8fae6bbb5d029efb6dd48"
+        },
+        "thumbnail": {
+          "path": "contenido/imagenes/galatas5/miniaturas/rve03.jpg",
+          "mime_type": "image/jpeg",
+          "width": 480,
+          "height": 270,
+          "bytes": 52052,
+          "sha256": "18813c8f3dc986e57d3b8e07a6078348d6377172a9734c36c80aeb1229fa36e7",
+          "processing": "Ajuste proporcional a 480×640 máximo, sin recorte; JPEG calidad 78, fondo blanco."
+        },
+        "alt_text": null
+      },
+      "points": [
+        {
+          "point_id": "RVE03-P01",
+          "name": "Un fruto que se reconoce en la vida",
+          "description": "Pablo habla del fruto del Espíritu, no de una lista de rasgos para clasificar personalidades. Una persona puede ser tranquila por temperamento y, sin embargo, actuar con indiferencia. Otra puede ser expresiva y estar aprendiendo a responder con paciencia y amor.\n\nEl fruto no exige que todos tengamos el mismo carácter. Se refiere a cualidades que se expresan en nuestras relaciones y decisiones."
+        },
+        {
+          "point_id": "RVE03-P02",
+          "name": "Amor, gozo y paz",
+          "description": "Amor: buscar el bien del otro, no solamente sentir afecto. A veces amar implica corregir con respeto o acompañar a alguien cuando resulta incómodo.\n\nGozo: una alegría que no depende únicamente de que todo salga bien. No significa estar sonriendo permanentemente ni negar la tristeza.\n\nPaz: más que evitar discusiones. Incluye procurar relaciones reconciliadas y actuar sin alimentar la hostilidad; no exige tolerar injusticias en silencio."
+        },
+        {
+          "point_id": "RVE03-P03",
+          "name": "Paciencia, benignidad y bondad",
+          "description": "Paciencia: responder con perseverancia cuando aparecen demoras, errores o provocaciones. No equivale a soportar cualquier abuso.\n\nBenignidad: una manera considerada y amable de tratar a las personas, especialmente cuando son vulnerables o están pasando por dificultades.\n\nBondad: una disposición a hacer lo que es bueno y beneficioso. Puede requerir una decisión firme, incluso cuando no resulta agradable.\n\nLa diferencia ayuda: la benignidad se nota especialmente en el trato; la bondad, en la disposición a hacer el bien. No son categorías rígidas ni completamente separadas."
+        },
+        {
+          "point_id": "RVE03-P04",
+          "name": "Fidelidad, mansedumbre y dominio propio",
+          "description": "Fidelidad: ser confiable y perseverar en los compromisos. La palabra griega pístis (πίστις) puede traducirse como «fe» o «fidelidad» según el contexto; en este listado, «fidelidad» destaca la confiabilidad en la conducta, aunque «fe» también es una opción de traducción.\n\nMansedumbre: responder sin arrogancia ni agresividad. No es debilidad ni falta de convicciones. Gálatas 6:1 muestra su importancia al hablar de restaurar con espíritu de mansedumbre.\n\nDominio propio: aprender a gobernar impulsos, palabras y acciones. No consiste en dejar de sentir, sino en no permitir que cada impulso decida por nosotros."
+        },
+        {
+          "point_id": "RVE03-P05",
+          "name": "¿Cómo se relacionan?",
+          "description": "Estas cualidades se sostienen mutuamente. Por ejemplo, decir una verdad difícil puede requerir amor para buscar el bien del otro, bondad para actuar correctamente, mansedumbre para evitar la humillación y dominio propio para controlar el tono.\n\nNo son una lista para presumir superioridad espiritual. Son una invitación a observar cómo tratamos a las personas."
+        },
+        {
+          "point_id": "RVE03-P06",
+          "name": "¿El fruto aparece de inmediato?",
+          "description": "La imagen del fruto sugiere crecimiento, pero no autoriza a medir la espiritualidad de alguien con un calendario ni a prometer perfección inmediata. El creyente puede reconocer fallas, arrepentirse y continuar aprendiendo.\n\nPara recordar: el fruto del Espíritu se hace visible menos en lo que afirmamos sobre nosotros mismos y más en cómo amamos, tratamos y respondemos a los demás."
+        }
+      ],
+      "editorial": {
+        "authorship": null,
+        "reviewers": null,
+        "reviewed_at": null,
+        "sources": null,
+        "rights_status": "pendiente",
+        "rights_evidence": null,
+        "content_version": null,
+        "learning_outcome": null,
+        "usefulness_check": null,
+        "hotspot_coordinates": null,
+        "missing_metadata": [
+          "Autoría y procedencia verificadas de cada imagen y explicación",
+          "Fuentes y revisión de las afirmaciones",
+          "Licencia, atribución y evidencia de derechos",
+          "Responsables y fecha de revisión editorial",
+          "Texto alternativo revisado",
+          "Versión editorial aprobada",
+          "Objetivo pedagógico y comprobación de utilidad",
+          "Coordenadas si se incorporan hotspots"
+        ]
+      }
+    },
+    {
+      "resource_id": "BVI-GAL5-RVE04",
+      "source_id": "RVE04",
+      "type": "rve_experimental",
+      "title": "Andar por el Espíritu",
+      "order": 4,
+      "status": "pendiente_revision",
+      "publication_allowed": false,
+      "source": {
+        "pilot_resource_sha256": "2770032c7c543fce7494a538ae008592f9bb46748dd40b65e4a4261524b550c9"
+      },
+      "image": {
+        "original": {
+          "path": "contenido/imagenes/galatas5/originales/rve04.png",
+          "mime_type": "image/png",
+          "width": 1199,
+          "height": 1312,
+          "bytes": 2668328,
+          "sha256": "2f57f87775bf0009809b0f1dc3dd6615611c23172b3f3205f4b1a22a10c47873"
+        },
+        "thumbnail": {
+          "path": "contenido/imagenes/galatas5/miniaturas/rve04.jpg",
+          "mime_type": "image/jpeg",
+          "width": 480,
+          "height": 525,
+          "bytes": 99816,
+          "sha256": "5562eb78bab3db672c1e7449b57cf09ce279ca976038780a3c8c5ef3113984b1",
+          "processing": "Ajuste proporcional a 480×640 máximo, sin recorte; JPEG calidad 78, fondo blanco."
+        },
+        "alt_text": null
+      },
+      "points": [
+        {
+          "point_id": "RVE04-P01",
+          "name": "Una forma de vivir, no solo una sensación",
+          "description": "Después de describir las obras de la carne y el fruto del Espíritu, Pablo vuelve a una pregunta práctica: ¿cómo vivimos bajo la dirección del Espíritu Santo?\n\nNo reduce esa vida a emocionarse en una oración, sentir paz durante un culto o experimentar una impresión interior. Esas experiencias pueden ser significativas, pero andar por el Espíritu se expresa en la conducta cotidiana."
+        },
+        {
+          "point_id": "RVE04-P02",
+          "name": "¿Qué significa «andar»?",
+          "description": "En Gálatas 5:16 Pablo emplea una forma del verbo griego peripatéō (περιπατέω), «caminar» o «andar». Pablo lo utiliza como imagen de la manera habitual de vivir: las decisiones repetidas que van marcando una dirección.\n\nNo se trata de un acto espiritual aislado, sino de aprender a orientar la vida conforme al Espíritu."
+        },
+        {
+          "point_id": "RVE04-P03",
+          "name": "¿Qué significa ser guiados?",
+          "description": "En Gálatas 5:18 Pablo habla de ser guiados por el Espíritu. La idea no es que Dios anule nuestra responsabilidad ni que cada decisión venga acompañada de una instrucción sobrenatural inequívoca.\n\nSer guiados implica responder a la dirección del Espíritu en coherencia con el mensaje de Cristo, especialmente el llamado a amar al prójimo."
+        },
+        {
+          "point_id": "RVE04-P04",
+          "name": "¿Qué significa haber crucificado la carne?",
+          "description": "Gálatas 5:24 afirma que los que pertenecen a Cristo han crucificado la carne con sus pasiones y deseos. Es una imagen fuerte de ruptura con la antigua orientación de vida.\n\nNo significa que toda tentación haya desaparecido. Pablo sigue exhortando a los creyentes precisamente porque deben continuar rechazando lo que se opone al Espíritu."
+        },
+        {
+          "point_id": "RVE04-P05",
+          "name": "Si vivimos por el Espíritu, ¿por qué debemos andar por él?",
+          "description": "En Gálatas 5:25 Pablo emplea una forma de stoichéō (στοιχέω), un verbo que transmite la idea de avanzar siguiendo una pauta o mantener el paso. Pablo une lo que somos por la vida del Espíritu con la manera en que debemos conducirnos.\n\nLa enseñanza no exige distinguir etapas espirituales rígidas. Su énfasis es la coherencia: si el Espíritu es la fuente de nuestra vida, nuestra conducta debe corresponder a esa realidad."
+        },
+        {
+          "point_id": "RVE04-P06",
+          "name": "¿Por qué termina hablando de vanagloria y envidia?",
+          "description": "Gálatas 5:26 advierte contra la vanagloria, las provocaciones y la envidia. No es un agregado accidental: Pablo aterriza su enseñanza en las relaciones de la comunidad.\n\nPodemos hablar mucho de espiritualidad y, al mismo tiempo, competir por reconocimiento, provocar a otros o resentir sus logros. Andar por el Espíritu también significa revisar esas actitudes."
+        },
+        {
+          "point_id": "RVE04-P07",
+          "name": "¿Qué ocurre cuando fallamos?",
+          "description": "Un creyente puede equivocarse. El camino no consiste en negar la falta ni en resignarse a ella, sino en reconocerla, corregir el rumbo y procurar restaurar las relaciones. Gálatas 6:1 continúa esta enseñanza al pedir que la restauración se haga con mansedumbre.\n\nPara recordar: andar por el Espíritu es aprender a vivir de manera coherente con la vida que recibimos de Dios, incluso en las decisiones pequeñas y en los conflictos con otras personas."
+        }
+      ],
+      "editorial": {
+        "authorship": null,
+        "reviewers": null,
+        "reviewed_at": null,
+        "sources": null,
+        "rights_status": "pendiente",
+        "rights_evidence": null,
+        "content_version": null,
+        "learning_outcome": null,
+        "usefulness_check": null,
+        "hotspot_coordinates": null,
+        "missing_metadata": [
+          "Autoría y procedencia verificadas de cada imagen y explicación",
+          "Fuentes y revisión de las afirmaciones",
+          "Licencia, atribución y evidencia de derechos",
+          "Responsables y fecha de revisión editorial",
+          "Texto alternativo revisado",
+          "Versión editorial aprobada",
+          "Objetivo pedagógico y comprobación de utilidad",
+          "Coordenadas si se incorporan hotspots"
+        ]
+      }
+    }
+  ],
+  "placements": [
+    {
+      "placement_id": "BVI-GAL5-RVE01-GAL-5-18",
+      "resource_id": "BVI-GAL5-RVE01",
+      "anchor": {
+        "book_id": "GAL",
+        "chapter": 5,
+        "verse_number": 18
+      },
+      "position": "after_verse",
+      "order": 1,
+      "status": "pendiente_revision",
+      "publication_allowed": false
+    },
+    {
+      "placement_id": "BVI-GAL5-RVE02-GAL-5-21",
+      "resource_id": "BVI-GAL5-RVE02",
+      "anchor": {
+        "book_id": "GAL",
+        "chapter": 5,
+        "verse_number": 21
+      },
+      "position": "after_verse",
+      "order": 2,
+      "status": "pendiente_revision",
+      "publication_allowed": false
+    },
+    {
+      "placement_id": "BVI-GAL5-RVE03-GAL-5-23",
+      "resource_id": "BVI-GAL5-RVE03",
+      "anchor": {
+        "book_id": "GAL",
+        "chapter": 5,
+        "verse_number": 23
+      },
+      "position": "after_verse",
+      "order": 3,
+      "status": "pendiente_revision",
+      "publication_allowed": false
+    },
+    {
+      "placement_id": "BVI-GAL5-RVE04-GAL-5-26",
+      "resource_id": "BVI-GAL5-RVE04",
+      "anchor": {
+        "book_id": "GAL",
+        "chapter": 5,
+        "verse_number": 26
+      },
+      "position": "after_verse",
+      "order": 4,
+      "status": "pendiente_revision",
+      "publication_allowed": false
+    }
+  ]
+}

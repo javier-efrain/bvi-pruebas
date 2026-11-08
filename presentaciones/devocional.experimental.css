@@ -1,0 +1,22 @@
+.devocional-tarjeta { margin: 24px 0 32px; border: 1px solid var(--borde); border-radius: 12px; background: var(--superficie-editorial); color: var(--texto); overflow-wrap: anywhere; }
+.devocional-abrir { box-sizing: border-box; width: 100%; min-height: 44px; padding: 18px; font: inherit; color: inherit; text-align: start; cursor: pointer; }
+button.devocional-abrir { border: 0; border-radius: 12px; background: transparent; }
+.devocional-abrir span { display: block; line-height: 1.7; }
+.devocional-titulo { font-size: 1.05rem; font-weight: 650; color: var(--acento); }
+.devocional-descripcion { margin-top: 8px; font-size: .9rem; }
+.devocional-accion { margin-top: 10px; font-size: .85rem; color: var(--acento); text-decoration: underline; text-underline-offset: 3px; }
+.devocional-aviso, .devocional-procedencia { margin-top: 12px; font-size: .75rem; line-height: 1.7; color: var(--texto-secundario); }
+.devocional-contenido { padding: 16px; }
+.devocional-contenido h3 { margin: 20px 0 8px; font-size: .95rem; color: var(--acento); line-height: 1.6; }
+.devocional-contenido section p { margin: 0; line-height: 1.85; white-space: pre-wrap; }
+.devocional-panel { box-sizing: border-box; width: min(640px, calc(100% - 24px)); max-height: calc(100dvh - 40px); padding: 18px; overflow: auto; overflow-wrap: anywhere; border: 1px solid var(--borde); border-radius: 12px; background: var(--superficie-editorial); color: var(--texto); }
+.devocional-panel::backdrop { background: rgb(0 0 0 / .55); }
+.devocional-panel h2 { margin: 0 0 12px; font-size: 1.15rem; line-height: 1.5; }
+.devocional-abrir:focus-visible, .devocional-panel button:focus-visible { outline: 3px solid var(--turquesa); outline-offset: 3px; }
+.devocional-pasos { display: flex; flex-wrap: wrap; gap: 8px 16px; padding-inline-start: 20px; font-size: .85rem; line-height: 1.7; color: var(--texto-secundario); }
+.devocional-pasos [aria-current="step"] { font-weight: 700; color: var(--acento); }
+.devocional-estado { color: var(--texto-secundario); font-size: .85rem; }
+.devocional-contenido section[hidden] { display: none; }
+.devocional-controles { display: flex; flex-wrap: wrap; gap: 10px; padding: 0 16px 16px; }
+.devocional-controles button { min-height: 44px; padding: 10px 14px; font: inherit; border: 1px solid var(--borde); border-radius: 8px; background: var(--superficie-control); color: var(--texto); cursor: pointer; }
+.devocional-controles button:disabled { opacity: .5; cursor: default; }

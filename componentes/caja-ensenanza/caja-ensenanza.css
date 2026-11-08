@@ -1,0 +1,9 @@
+.caja-ensenanza { margin: 24px 0; padding: clamp(16px, 4vw, 24px); border: 1px solid var(--borde); border-left: 4px solid var(--acento); border-radius: 14px; background: var(--superficie-editorial); color: var(--texto); overflow-wrap: anywhere; }
+.caja-ensenanza .caja-ensenanza-titulo { margin: 0 0 12px; font-size: 1.15rem; line-height: 1.4; }
+.caja-ensenanza .caja-ensenanza-aviso { margin: 0 0 20px; font-size: .8rem; line-height: 1.6; color: var(--aviso); }
+.caja-ensenanza h4 { margin: 0 0 8px; font-size: .9rem; color: var(--acento); }
+.caja-ensenanza p { margin: 0; white-space: pre-wrap; line-height: 1.75; }
+.caja-ensenanza > div + div { margin-top: 20px; }
+.caja-ensenanza-aplicacion { border-top: 1px solid var(--borde); padding-top: 16px; }
+.caja-ensenanza-referencias ul { margin: 0; padding-left: 20px; color: var(--texto-secundario); font-size: .9rem; }
+.caja-ensenanza-conclusion { border-top: 1px solid var(--borde); padding-top: 16px; }
